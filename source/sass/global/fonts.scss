@@ -12,7 +12,7 @@
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "Roboto Condensed Regular";
+  font-family: "Roboto Condensed";
 
   font-display: swap;
   src:
@@ -34,7 +34,7 @@
 @font-face {
   font-style: normal;
   font-weight: 700;
-  font-family: "Bebas Neue Bold";
+  font-family: "Bebas Neue";
 
   font-display: swap;
   src:
@@ -45,10 +45,10 @@
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "Bebas Neue Regular";
+  font-family: "Bebas Neue";
 
   font-display: swap;
   src:
-    url("../fonts/Bebas Neue Regular.woff2") format("woff2"),
-    url("../fonts/Bebas Neue Regular.woff") format("woff");
+    url("../fonts/bebas-neue-regular.woff2") format("woff2"),
+    url("../fonts/bebas-neue-regular.woff") format("woff");
 }

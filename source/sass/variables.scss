@@ -16,6 +16,8 @@ $color-quartz: #d8d8d9;
 
 $black-to-right: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
 
+
+$main-bg: conic-gradient(from 130.31deg at 16.03% 39.06%, #B80027 -46.69deg, #003D85 32.24deg, #B80027 313.31deg, #003D85 392.24deg);
 // Typography
 // ---------------------------------
 
@@ -50,6 +52,7 @@ $vp-320: 320px;
 $vp-375: 375px;
 $vp-768: 768px;
 $vp-1024: 1024px;
+$vp-1200: 1200px;
 $vp-1280: 1280px;
 $vp-1440: 1440px;
 $vp-1920: 1920px;
