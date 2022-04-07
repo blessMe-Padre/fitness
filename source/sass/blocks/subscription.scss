@@ -1,0 +1,12 @@
+.subscription {
+  padding: 120px 0;
+  background-color: $color-white-lilac
+}
+
+.subscription-body__block {
+  display: none;
+}
+
+.subscription-body__block._active {
+  display: block;
+}

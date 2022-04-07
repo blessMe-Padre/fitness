@@ -34,8 +34,8 @@
             </div>
             <div class="main__img">
               <picture>
-                <source srcset="img/content/main.webp 1x, img/content/main@2x.webp 2x">
-                <source srcset="img/content/main.jpg 1x, img/content/main@2x.jpg 2x">
+                <source srcset="img/content/main.webp 1x, img/content/main@2x.webp 2x" type="image/webp">
+                <source srcset="img/content/main.jpg 1x, img/content/main@2x.jpg 2x" type="image/jpg">
 
                 <!-- 1х: 500px; 2x: 1000px -->
                 <img src="img/content/main.jpg" width="500" height="556" srcset="img/content/main@2x.jpg 2x"
@@ -47,6 +47,70 @@
               <a class="main__social-link" href="#">vk</a>
               <a class="main__social-link" href="#">ig</a>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="gym">
+        <div class="gym__text">
+          <h2>Тренажерный зал</h2>
+          <h3>Просторный зал площадью 900 кв/м</h3>
+          <p>Supergym&nbsp;&mdash; самый большой фитнес центр за&nbsp;Уралом и&nbsp;идеальное место для укрепления тела
+            и&nbsp;здоровья. Тренажерный зал оснащен всем необходимым современным оборудованием для всех спортсменов.
+          </p>
+          <p class="gym__text-hidden">В&nbsp;зале расположены отдельная зона для Crossfit и&nbsp;кардио-зона
+            с&nbsp;40&nbsp;тренажерами. Также
+            в&nbsp;фитнес центре есть несколько оборудованных залов для различных видов групповых занятий.</p>
+        </div>
+        <div class="gym__img">
+          <picture>
+            <source srcset="img/content/gym.webp 1x, img/content/gym@2x.webp 2x" type="image/webp">
+
+            <img src="img/content/gym.jpg" width="660" height="401" srcset="img/content/gym@2x.jpg 2x"
+              alt="тренажерный зал">
+          </picture>
+        </div>
+        <div class="gym__video">
+          <div class="video video--enabled">
+            <a class="video__link" href="https://www.youtube.com/watch?v=9TZXsZItgdw">
+              <picture>
+                <source srcset="img/video/video-bg.webp 1x, img/video/video-bg@2x.webp 2x" type="image/webp">
+                <source srcset="img/video/video-bg.jpg 1x, img/video/video-bg@2x.jpg 2x" type="image/jpg">
+                <img class="video__media" src="img/video/video-bg.jpg" width="364" height="228"
+                  srcset="img/video/video-bg@2x.jpg 2x" alt="тренажерный зал">
+              </picture>
+            </a>
+            <button class="video__button" aria-label="Посмотреть видео"></button>
+          </div>
+        </div>
+      </section>
+      <section class="subscription">
+        <h2>Абонементы</h2>
+        <nav class="subscription__nav subscription-nav">
+          <button class="subscription-nav__item _active">1 месяц</button>
+          <button class="subscription-nav__item">6 месяцев</button>
+          <button class="subscription-nav__item">12 месяцев</button>
+        </nav>
+        <div class="subscription__body subscription-body">
+          <div class="subscription-body__block _active">
+            <ul class="subscription-body__list">
+              <li class="subscription-body__item">11</li>
+              <li class="subscription-body__item">11</li>
+              <li class="subscription-body__item">11</li>
+            </ul>
+          </div>
+          <div class="subscription-body__block">
+            <ul class="subscription-body__list">
+              <li class="subscription-body__item">22</li>
+              <li class="subscription-body__item">22</li>
+              <li class="subscription-body__item">22</li>
+            </ul>
+          </div>
+          <div class="subscription-body__block">
+            <ul class="subscription-body__list">
+              <li class="subscription-body__item">33</li>
+              <li class="subscription-body__item">33</li>
+              <li class="subscription-body__item">33</li>
+            </ul>
           </div>
         </div>
       </section>
