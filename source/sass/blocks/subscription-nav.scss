@@ -1,0 +1,42 @@
+.subscription-nav {
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px solid rgba(120, 120, 120, 0.2);
+  margin-bottom: 39px;
+}
+
+.subscription-nav__item {
+  position: relative;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: $color-transparent-2;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 46px;
+  padding: 0;
+  padding-bottom: 20px;
+
+  @include vp-767 {
+    margin-right: 17px;
+  }
+}
+
+.subscription-nav__item:last-child {
+  margin-right: 0;
+}
+
+.subscription-nav__item._active {
+  color: #102654;
+}
+
+.subscription-nav__item._active::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: $color-razzmatazz;
+}
