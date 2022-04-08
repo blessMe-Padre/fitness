@@ -1,0 +1,81 @@
+.super {
+  padding: 120px 0;
+}
+
+.super__row {
+  display: flex;
+
+  @include vp-767 {
+    flex-wrap: wrap;
+  }
+}
+
+.super__text {
+  color: $color-default-white;
+  background-color: $color-red-ribbon;
+  padding: 87px 80px 10px 78px;
+
+  @include vp-1199 {
+    padding: 50px 45px;
+  }
+
+  @include vp-767 {
+    width: 100%;
+  }
+}
+
+.super__text p {
+  font-family: 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 55px;
+
+  @include vp-1199 {
+    font-size: 12px;
+  }
+}
+
+.super__wrapper {
+  display: grid;
+  grid-template-columns: 210px 100px;
+
+  @include vp-1199 {
+    grid-template-columns: 120px 1fr;
+  }
+
+  @include vp-767 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.super__wrapper h2 {
+  font-family: 'Bebas Neue';
+  font-size: 90px;
+  line-height: 90px;
+  letter-spacing: 0.03em;
+  margin: 0;
+
+  @include vp-1199 {
+    font-size: 52px;
+    line-height: 52px;
+  }
+}
+
+.super__date {
+  @include vp-1199 {
+    margin-left: 20px;
+  }
+}
+
+.super__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.super__img {
+  @include vp-767 {
+    min-height: 290px;
+  }
+}

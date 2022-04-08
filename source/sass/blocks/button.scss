@@ -40,3 +40,13 @@
   color: $color-default-white;
   background: $button-gradient;
 }
+
+.button--super {
+  color: $color-default-white;
+  padding: 28px 5px;
+  border: 4px solid $color-default-white;
+
+  @include vp-767 {
+    padding: 16px 5px;
+  }
+}
