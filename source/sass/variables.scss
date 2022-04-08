@@ -23,8 +23,12 @@ $color-razzmatazz: #d10a42;
 
 $black-to-right: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
 
-
 $main-bg: conic-gradient(from 130.31deg at 16.03% 39.06%, #B80027 -46.69deg, #003D85 32.24deg, #B80027 313.31deg, #003D85 392.24deg);
+
+$border-gradient: linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
+
+$button-gradient: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
+
 // Typography
 // ---------------------------------
 

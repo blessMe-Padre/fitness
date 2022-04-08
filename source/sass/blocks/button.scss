@@ -10,6 +10,7 @@
   text-align: center;
   user-select: none;
   display: block;
+  transition: all 0.4s ease;
 }
 
 .button--main {
@@ -26,9 +27,16 @@
 .button--subscription {
   display: inline-block;
   padding: 23px 44px;
-  border: 2px solid #102654;
+  border: 2px solid $color-blue-zodiac;
+
+  @include vp-767 {
+    display: block;
+  }
 }
 
-@include vp-767 {
-  display: block;
+.button--subscription:focus,
+.button--subscription:hover {
+  border: none;
+  color: $color-default-white;
+  background: $button-gradient;
 }

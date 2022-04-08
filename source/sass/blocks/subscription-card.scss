@@ -6,10 +6,17 @@
   min-height: 448px;
   padding: 10px 5px;
   text-align: center;
+  transition: all 0.4s ease;
 
   @include vp-767 {
     width: 290px;
   }
+}
+
+.subscription-card:hover {
+  border: 6px solid transparent;
+  border-image: $border-gradient;
+  border-image-slice: 1;
 }
 
 .subscription-card h3 {
