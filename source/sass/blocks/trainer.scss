@@ -1,0 +1,98 @@
+.trainer {
+  padding: 120px 0;
+}
+
+.trainer__wrapper {
+  position: relative;
+
+  @include vp-1199 {
+    padding: 0 51px;
+  }
+
+  @include vp-767 {
+    padding: 0 32px;
+  }
+}
+
+.trainer h2 {
+  font-size: 49px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
+  color: $color-blue-zodiac;
+  margin-bottom: 60px;
+}
+
+.trainer__list {
+  position: relative;
+  display: flex;
+  min-width: 0;
+}
+
+.trainer__btn-prev,
+.trainer__btn-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 32px;
+  background-image: url('../img/svg/arrow.svg');
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.trainer__btn-prev {
+  left: -45px;
+
+  @include vp-1199 {
+    left: 0;
+  }
+}
+
+.trainer__btn-next {
+  transform: rotate(180deg);
+  right: -45px;
+
+  @include vp-1199 {
+    right: 0;
+  }
+}
+
+.trainer__item {
+  position: relative;
+  cursor: pointer;
+
+  @include vp-1199 {
+    width: 268px;
+  }
+
+  @include vp-767 {
+    width: 226px;
+  }
+}
+
+.trainer__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trainer__item-name {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: $color-default-white;
+  transform: translateX(-50%);
+}
+
+.trainer__item:hover .trainer-description {
+  opacity: 1;
+  visibility: visible;
+}
+
+.trainer__item:hover .trainer__item-name {
+  font-size: 0;
+}

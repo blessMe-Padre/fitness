@@ -76,6 +76,7 @@
 
 .super__img {
   @include vp-767 {
+    width: 100%;
     min-height: 290px;
   }
 }
