@@ -1,8 +1,13 @@
 .item-benefits {
   display: flex;
-}
+  padding: 0 15px 10px 15px;
 
-.item-benefits__num-block {}
+  @include vp-767 {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
 
 .item-benefits__number {
   margin: 0;
@@ -13,6 +18,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+
+  @include vp-767 {
+    font-size: 58px;
+    line-height: 100%;
+    display: inline-block;
+  }
 }
 
 .item-benefits__sub-number {
@@ -26,6 +37,10 @@
 
 .item-benefits__text {
   padding-left: 30px;
+
+  @include vp-767 {
+    padding-left: 0;
+  }
 }
 
 .item-benefits__text h3 {
@@ -34,6 +49,10 @@
   font-size: 22px;
   line-height: 150%;
   color: $color-blue-zodiac;
+
+  @include vp-767 {
+    font-size: 20px;
+  }
 }
 
 .item-benefits__text p {
@@ -42,4 +61,24 @@
   font-size: 16px;
   line-height: 140%;
   color: $color-blue-zodiac;
+}
+
+
+.item-benefits--square,
+.item-benefits--parking {
+  border-bottom: 2px solid rgba(209, 10, 66, 0.2);
+
+  @include vp-1199 {
+    border: none;
+  }
+}
+
+.item-benefits--comfort,
+.item-benefits--experience {
+  padding-top: 30px;
+  align-items: flex-end;
+
+  @include vp-767 {
+    padding-top: 0;
+  }
 }
