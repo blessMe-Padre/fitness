@@ -1,0 +1,156 @@
+.connection {
+  padding: 70px 0;
+}
+
+.connection__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include vp-1199 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.connection__form {
+  color: $color-default-white;
+  background-color: $color-blue-zodiac;
+  padding: 70px 100px 20px;
+
+  @include vp-1199 {
+    width: 100%;
+    padding-left: 130px;
+    padding-bottom: 70px;
+  }
+
+  @include vp-767 {
+    padding: 70px 15px;
+  }
+}
+
+.connection__form h2 {
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-size: 49px;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  margin-bottom: 60px;
+
+  @include vp-1199 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+
+  @include vp-767 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+.connection__contact {
+  padding: 70px 120px;
+  color: $color-blue-zodiac;
+
+  @include vp-1199 {
+    padding-bottom: 0;
+  }
+
+  @include vp-767 {
+    padding: 70px 15px 0 15px;
+  }
+}
+
+.connection__contact h2 {
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-size: 49px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
+  margin-bottom: 60px;
+
+  @include vp-1199 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+
+  @include vp-767 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+.connection__contact h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 15px;
+
+  @include vp-1199 {
+    font-size: 18px;
+    line-height: 152.34%;
+  }
+}
+
+.connection__address-item {
+  margin-bottom: 30px;
+}
+
+.connection__address {
+  border-right: 1px solid $color-lynch;
+
+  @include vp-767 {
+    border: none;
+    margin-bottom: 30px;
+  }
+}
+
+.connection__address p {
+  margin: 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-blue-zodiac;
+
+  @include vp-1199 {
+    font-size: 18px;
+    line-height: 152.34%;
+  }
+}
+
+.connection__info-item {
+  margin-bottom: 30px;
+}
+
+.connection__info {
+  padding-left: 60px;
+
+  @include vp-767 {
+    padding-left: 0;
+  }
+}
+
+.connection__info a {
+  display: block;
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-blue-zodiac;
+  padding: 5px 0;
+
+  @include vp-1199 {
+    font-size: 18px;
+    line-height: 152.34%;
+  }
+}
+
+.connection__info a:hover {
+  color: $color-governor-bay;
+}
+
+.connection__contact-wrapper {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+
+  @include vp-767 {
+    grid-template-columns: 1fr;
+  }
+}

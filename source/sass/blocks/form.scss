@@ -1,0 +1,42 @@
+.form {
+  max-width: 410px;
+
+  @include vp-1199 {
+    max-width: 472px;
+  }
+
+  @include vp-767 {
+    width: 100%;
+  }
+}
+
+.form__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form input {
+  border: none;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: inherit;
+  font-size: 14px;
+  line-height: 16px;
+  color: $color-default-white;
+  border-bottom: 1px solid $color-lynch;
+  width: 190px;
+  margin-bottom: 30px;
+
+  @include vp-767 {
+    width: 100%;
+  }
+}
+
+.form input::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: $color-default-white;
+}

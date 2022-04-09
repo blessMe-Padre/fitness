@@ -50,3 +50,17 @@
     padding: 16px 5px;
   }
 }
+
+.button--form {
+  border: none;
+  color: $color-default-white;
+  background-color: inherit;
+  padding: 20px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 3px solid $color-default-white;
+  width: 100%;
+}

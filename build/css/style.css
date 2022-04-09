@@ -1586,6 +1586,20 @@ button,
   border: 4px solid #ffffff;
 }
 
+.button--form {
+  border: none;
+  color: #ffffff;
+  background-color: inherit;
+  padding: 20px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 3px solid #ffffff;
+  width: 100%;
+}
+
 .main {
   min-height: 658px;
   background: conic-gradient(from 130.31deg at 16.03% 39.06%, #B80027 -46.69deg, #003D85 32.24deg, #B80027 313.31deg, #003D85 392.24deg);
@@ -2535,6 +2549,157 @@ button,
   background-image: url("../img/svg/arrow-disabled.svg");
 }
 
+.connection {
+  padding: 70px 0;
+}
+
+.connection__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.connection__form {
+  color: #ffffff;
+  background-color: #102654;
+  padding: 70px 100px 20px;
+}
+
+.connection__form h2 {
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-size: 49px;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  margin-bottom: 60px;
+}
+
+.connection__contact {
+  padding: 70px 120px;
+  color: #102654;
+}
+
+.connection__contact h2 {
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-size: 49px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
+  margin-bottom: 60px;
+}
+
+.connection__contact h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 15px;
+}
+
+.connection__address-item {
+  margin-bottom: 30px;
+}
+
+.connection__address {
+  border-right: 1px solid #74819c;
+}
+
+.connection__address p {
+  margin: 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #102654;
+}
+
+.connection__info-item {
+  margin-bottom: 30px;
+}
+
+.connection__info {
+  padding-left: 60px;
+}
+
+.connection__info a {
+  display: block;
+  font-size: 14px;
+  line-height: 21px;
+  color: #102654;
+  padding: 5px 0;
+}
+
+.connection__info a:hover {
+  color: #2e35ac;
+}
+
+.connection__contact-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 230px 1fr;
+  grid-template-columns: 230px 1fr;
+}
+
+.form {
+  max-width: 410px;
+}
+
+.form__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.form input {
+  border: none;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: inherit;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border-bottom: 1px solid #74819c;
+  width: 190px;
+  margin-bottom: 30px;
+}
+
+.form input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.form input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.form input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.form input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.form input::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
 @media (max-width: 1439px) {
   .container {
     padding: 0 40px;
@@ -2757,6 +2922,50 @@ button,
   .reviews h2 {
     font-size: 42px;
     margin-bottom: 50px;
+  }
+
+  .connection__wrapper {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .connection__form {
+    width: 100%;
+    padding-left: 130px;
+    padding-bottom: 70px;
+  }
+
+  .connection__form h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+
+  .connection__contact {
+    padding-bottom: 0;
+  }
+
+  .connection__contact h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+
+  .connection__contact h3 {
+    font-size: 18px;
+    line-height: 152.34%;
+  }
+
+  .connection__address p {
+    font-size: 18px;
+    line-height: 152.34%;
+  }
+
+  .connection__info a {
+    font-size: 18px;
+    line-height: 152.34%;
+  }
+
+  .form {
+    max-width: 472px;
   }
 }
 
@@ -3012,5 +3221,45 @@ button,
   .reviews__btn-next {
     top: 50%;
     right: 0;
+  }
+
+  .connection__form {
+    padding: 70px 15px;
+  }
+
+  .connection__form h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .connection__contact {
+    padding: 70px 15px 0 15px;
+  }
+
+  .connection__contact h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .connection__address {
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .connection__info {
+    padding-left: 0;
+  }
+
+  .connection__contact-wrapper {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form input {
+    width: 100%;
   }
 }
