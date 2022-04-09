@@ -1,0 +1,165 @@
+.stock {
+  padding: 120px 0;
+
+  @include vp-767 {
+    padding: 70px 0;
+    text-align: center;
+  }
+}
+
+.stock h2 {
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-size: 49px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
+  color: $color-blue-zodiac;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.stock__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+
+  @include vp-1199 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.stock__block {
+  min-height: 462px;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+
+  @include vp-767 {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+
+.stock__description {
+  color: $color-default-white;
+  background-color: $color-red-ribbon;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @include vp-767 {
+    display: block;
+  }
+}
+
+.stock__description-year {
+  margin: 0;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 156%;
+}
+
+.stock__description-price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 156%;
+}
+
+.stock__description-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.stock__description-link {
+  color: $color-default-white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-bottom: 1px solid $color-default-white;
+  transition: all 0.4s ease;
+}
+
+.stock__description-link:hover {
+  color: $color-governor-bay;
+  border-bottom: 1px solid $color-governor-bay;
+}
+
+.stock__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stock__item {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px;
+
+  @include vp-1199 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  @include vp-767 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.stock__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 35px;
+  color: $color-biscay;
+  border: 6px solid transparent;
+  border-image: $border-gradient;
+  border-image-slice: 1;
+
+  @include vp-767 {
+    display: block;
+  }
+}
+
+.stock__card-wrapper h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.stock__card-wrapper p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  @include vp-1199 {
+    margin-bottom: 23px;
+  }
+}
+
+.stock__card-link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $color-biscay;
+  padding-bottom: 3px;
+  border-bottom: 1px solid $color-biscay;
+}
+
+.stock__card-link:hover {
+  color: $color-razzmatazz;
+  border-bottom: 1px solid $color-razzmatazz;
+}
