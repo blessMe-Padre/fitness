@@ -1,0 +1,33 @@
+.benefits {
+  padding: 120px;
+  background-color: $color-white-lilac;
+}
+
+.benefits h2 {
+  font-family: 'Bebas Neue';
+  font-size: 49px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
+  color: $color-blue-zodiac;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.benefits__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.benefits__item--simulators {
+  background-color: $color-biscay;
+  color: $color-default-white;
+}
+
+.benefits__item-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 150%;
+}
+
+.benefits__item-subtitle {}

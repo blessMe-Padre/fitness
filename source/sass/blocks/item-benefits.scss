@@ -1,0 +1,45 @@
+.item-benefits {
+  display: flex;
+}
+
+.item-benefits__num-block {}
+
+.item-benefits__number {
+  margin: 0;
+  font-weight: 700;
+  font-size: 71px;
+  line-height: 100%;
+  background: linear-gradient(127.61deg, #D10A42 0%, #0041CA 45.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.item-benefits__sub-number {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: $color-governor-bay;
+}
+
+.item-benefits__text {
+  padding-left: 30px;
+}
+
+.item-benefits__text h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  color: $color-blue-zodiac;
+}
+
+.item-benefits__text p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: $color-blue-zodiac;
+}
