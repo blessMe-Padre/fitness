@@ -26,3 +26,17 @@ if (document.querySelector('.trainer__slider')) {
     },
   });
 }
+
+if (document.querySelector('.reviews__slider')) {
+  new Swiper('.reviews__slider', {
+    observer: true,
+    slidesPerView: 1,
+    slidePerGroup: 1,
+    infinite: false,
+    loop: false,
+    navigation: {
+      nextEl: '.reviews__btn-next',
+      prevEl: '.reviews__btn-prev',
+    },
+  });
+}
