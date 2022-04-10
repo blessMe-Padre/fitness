@@ -1602,7 +1602,7 @@ button,
   border: none;
   color: #ffffff;
   background-color: inherit;
-  padding: 20px 10px;
+  padding: 16px 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -2254,7 +2254,7 @@ button,
   letter-spacing: 0.03em;
   color: #102654;
   text-align: center;
-  margin: 0 0 74px;
+  margin: 0 0 73px;
 }
 
 .benefits__wrapper {
@@ -2265,10 +2265,11 @@ button,
   grid-template-columns: 1fr -webkit-min-content 1fr;
   grid-template-columns: 1fr min-content 1fr;
   justify-items: center;
+  margin: 0 60px;
 }
 
 .benefits__item--simulators {
-  padding: 50px 10px;
+  padding: 55px 20px 40px;
   background-color: #1c3374;
   color: #ffffff;
   text-align: center;
@@ -2279,6 +2280,7 @@ button,
   -ms-grid-row-span: 2;
   grid-row: 1 / 3;
   width: 240px;
+  margin: 0 60px;
 }
 
 .benefits__item-title {
@@ -2286,12 +2288,13 @@ button,
   font-weight: 700;
   font-size: 74px;
   line-height: 100%;
+  margin-bottom: 10px;
 }
 
 .benefits__item-subtitle {
   font-weight: 700;
-  font-size: 22px;
-  margin: 0;
+  font-size: 26px;
+  margin: 0 0 38px;
 }
 
 .benefits__item-text {
@@ -2304,7 +2307,8 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 15px 10px 15px;
+  min-height: 154px;
+  margin-top: -10px;
 }
 
 .item-benefits__number {
@@ -2320,7 +2324,7 @@ button,
 }
 
 .item-benefits__sub-number {
-  margin: 0;
+  margin: -4px 0 0;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2329,15 +2333,16 @@ button,
 }
 
 .item-benefits__text {
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 .item-benefits__text h3 {
-  margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 150%;
   color: #102654;
+  padding-top: 5px;
+  margin: 0 0 5px;
 }
 
 .item-benefits__text p {
@@ -2348,32 +2353,52 @@ button,
   color: #102654;
 }
 
+.item-benefits--square {
+  padding-left: 27px;
+}
+
+.item-benefits--parking .item-benefits__text {
+  padding-left: 27px;
+  padding-right: 10px;
+}
+
 .item-benefits--square,
 .item-benefits--parking {
   border-bottom: 2px solid rgba(209, 10, 66, 0.2);
 }
 
+.item-benefits--comfort {
+  padding-left: 18px;
+  margin-bottom: -10px;
+}
+
+.item-benefits--experience {
+  margin-bottom: -10px;
+}
+
+.item-benefits--experience .item-benefits__text {
+  padding-left: 32px;
+}
+
 .item-benefits--comfort,
 .item-benefits--experience {
-  padding-top: 30px;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
 }
 
 .stock {
-  padding: 120px 0;
+  padding: 104px 0;
 }
 
 .stock h2 {
-  margin: 0;
   font-family: 'Bebas Neue';
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
   color: #102654;
   text-align: center;
-  margin-bottom: 50px;
+  margin: 0 0 55px;
 }
 
 .stock__wrapper {
@@ -2395,7 +2420,7 @@ button,
 .stock__description {
   color: #ffffff;
   background-color: #ed0233;
-  padding: 45px;
+  padding: 35px 45px 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2419,10 +2444,10 @@ button,
 }
 
 .stock__description-price {
-  margin: 0;
   font-weight: 700;
   font-size: 70px;
   line-height: 100%;
+  margin: -7px 0 20px;
 }
 
 .stock__description-text {
@@ -2439,7 +2464,6 @@ button,
   line-height: 16px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding-bottom: 5px;
   display: inline-block;
   border-bottom: 1px solid #ffffff;
   -webkit-transition: all 0.4s ease;
@@ -2483,7 +2507,7 @@ button,
   align-items: flex-start;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 35px;
+  padding: 25px 30px;
   color: #1c3374;
   border: 6px solid transparent;
   -o-border-image: -o-linear-gradient(#d10a42, #00359f);
@@ -2496,7 +2520,7 @@ button,
   margin: 0;
   font-weight: 700;
   font-size: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .stock__card-wrapper p {
@@ -2523,7 +2547,7 @@ button,
 }
 
 .reviews {
-  padding-bottom: 120px;
+  padding: 10px 50px;
 }
 
 .reviews h2 {
@@ -2534,7 +2558,7 @@ button,
   letter-spacing: 0.03em;
   color: #102654;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 56px;
 }
 
 .reviews__list {
@@ -2542,7 +2566,7 @@ button,
 }
 
 .reviews__item {
-  padding: 60px;
+  padding: 53px 60px;
   width: 560px;
   background: #1c3374;
   -webkit-box-shadow: 0px 0px 40px rgba(28, 51, 116, 0.2);
@@ -2555,6 +2579,7 @@ button,
 }
 
 .reviews__img img {
+  margin-top: 10px;
   border-radius: 50%;
 }
 
@@ -2564,17 +2589,18 @@ button,
   font-weight: 700;
   font-size: 20px;
   line-height: 150%;
+  padding-left: 10px;
 }
 
 .reviews__text-review {
-  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
-  margin-top: -45px;
+  margin: -45px 0 0;
+  padding-left: 10px;
 }
 
 .reviews__wrapper {
@@ -2600,11 +2626,11 @@ button,
 }
 
 .reviews__btn-prev {
-  left: -40px;
+  left: -57px;
 }
 
 .reviews__btn-next {
-  right: -40px;
+  right: -57px;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -2616,7 +2642,7 @@ button,
 }
 
 .connection {
-  padding: 70px 0;
+  padding: 111px 60px 0;
 }
 
 .connection__wrapper {
@@ -2629,7 +2655,7 @@ button,
 .connection__form {
   color: #ffffff;
   background-color: #102654;
-  padding: 70px 100px 20px;
+  padding: 56px 100px 68px;
 }
 
 .connection__form h2 {
@@ -2638,37 +2664,37 @@ button,
   font-size: 49px;
   line-height: 64px;
   letter-spacing: 0.03em;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .connection__contact {
-  padding: 70px 120px;
+  padding: 64px 120px 10px;
   color: #102654;
+  border-top: 1px solid #74819c;
 }
 
 .connection__contact h2 {
-  margin: 0;
   font-family: 'Bebas Neue';
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
-  margin-bottom: 60px;
+  margin: 0 0 45px;
 }
 
 .connection__contact h3 {
-  margin: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
-  margin-bottom: 15px;
-}
-
-.connection__address-item {
-  margin-bottom: 30px;
+  margin: 0 0 5px;
 }
 
 .connection__address {
   border-right: 1px solid #74819c;
+  padding-left: 5px;
+}
+
+.connection__address-item {
+  margin-bottom: 15px;
 }
 
 .connection__address p {
@@ -2680,7 +2706,7 @@ button,
 }
 
 .connection__info-item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .connection__info {
@@ -2689,9 +2715,12 @@ button,
 
 .connection__info a {
   display: block;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #102654;
+  margin-top: -5px;
   padding: 5px 0;
 }
 
@@ -2702,8 +2731,8 @@ button,
 .connection__contact-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 230px 1fr;
-  grid-template-columns: 230px 1fr;
+  -ms-grid-columns: 235px 1fr;
+  grid-template-columns: 235px 1fr;
 }
 
 .form {
@@ -2733,7 +2762,7 @@ button,
   color: #ffffff;
   border-bottom: 1px solid #74819c;
   width: 190px;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .form input::-webkit-input-placeholder {
@@ -2795,6 +2824,7 @@ button,
   display: -ms-flexbox;
   display: flex;
   max-width: 600px;
+  margin-right: -27px;
 }
 
 .footer__nav-list {
@@ -2809,11 +2839,11 @@ button,
 }
 
 .footer__nav-list--left {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .footer__nav-item {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .footer__nav-item:last-child {
@@ -2829,7 +2859,7 @@ button,
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .footer__nav-link:hover {
@@ -2837,8 +2867,8 @@ button,
 }
 
 .footer__social-list {
-  margin: 0;
-  padding: 0;
+  padding: 0 35px 0 0;
+  margin-right: -20px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2847,6 +2877,7 @@ button,
   flex-wrap: wrap;
   min-width: 130px;
   max-width: 250px;
+  margin: 0 -40px 0 0;
 }
 
 .footer__social-item {
@@ -2864,7 +2895,7 @@ button,
   transition: all 0.3s ease;
   padding: 5px;
   cursor: pointer;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .footer__social-item:first-child {

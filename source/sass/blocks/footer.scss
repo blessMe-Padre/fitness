@@ -42,6 +42,7 @@
 .footer__nav {
   display: flex;
   max-width: 600px;
+  margin-right: -27px;
 
   @include vp-767 {
     display: grid;
@@ -62,7 +63,7 @@
 }
 
 .footer__nav-list--left {
-  margin-right: 30px;
+  margin-right: 20px;
 
   @include vp-767 {
     grid-column: 1 / 2;
@@ -70,6 +71,7 @@
 }
 
 .footer__nav-list--right {
+
   @include vp-767 {
     margin-top: -50px;
     grid-column: 2 / 3;
@@ -78,7 +80,7 @@
 }
 
 .footer__nav-item {
-  margin-right: 40px;
+  margin-right: 20px;
 
   @include vp-1199 {
     margin-right: 30px;
@@ -100,7 +102,7 @@
   line-height: 16px;
   color: $color-default-white;
   transition: all 0.3s ease;
-  padding: 10px 0;
+  padding: 10px;
 
   @include vp-767 {
     font-size: 16px;
@@ -113,13 +115,14 @@
 }
 
 .footer__social-list {
-  margin: 0;
-  padding: 0;
+  padding: 0 35px 0 0;
+  margin-right: -20px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   min-width: 130px;
   max-width: 250px;
+  margin: 0 -40px 0 0;
 }
 
 .footer__social-item {
@@ -129,7 +132,7 @@
   transition: all 0.3s ease;
   padding: 5px;
   cursor: pointer;
-  margin-left: 25px;
+  margin-left: 15px;
 
   @include vp-1199 {
     margin-left: 20px;

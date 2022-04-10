@@ -1,5 +1,5 @@
 .connection {
-  padding: 70px 0;
+  padding: 111px 60px 0;
 }
 
 .connection__wrapper {
@@ -14,7 +14,7 @@
 .connection__form {
   color: $color-default-white;
   background-color: $color-blue-zodiac;
-  padding: 70px 100px 20px;
+  padding: 56px 100px 68px;
 
   @include vp-1199 {
     width: 100%;
@@ -33,7 +33,7 @@
   font-size: 49px;
   line-height: 64px;
   letter-spacing: 0.03em;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 
   @include vp-1199 {
     font-size: 42px;
@@ -47,8 +47,9 @@
 }
 
 .connection__contact {
-  padding: 70px 120px;
+  padding: 64px 120px 10px;
   color: $color-blue-zodiac;
+  border-top: 1px solid $color-lynch;
 
   @include vp-1199 {
     padding-bottom: 0;
@@ -60,12 +61,11 @@
 }
 
 .connection__contact h2 {
-  margin: 0;
   font-family: 'Bebas Neue';
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
-  margin-bottom: 60px;
+  margin: 0 0 45px;
 
   @include vp-1199 {
     font-size: 42px;
@@ -79,11 +79,10 @@
 }
 
 .connection__contact h3 {
-  margin: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
-  margin-bottom: 15px;
+  margin: 0 0 5px;
 
   @include vp-1199 {
     font-size: 18px;
@@ -91,17 +90,18 @@
   }
 }
 
-.connection__address-item {
-  margin-bottom: 30px;
-}
-
 .connection__address {
   border-right: 1px solid $color-lynch;
+  padding-left: 5px;
 
   @include vp-767 {
     border: none;
     margin-bottom: 30px;
   }
+}
+
+.connection__address-item {
+  margin-bottom: 15px;
 }
 
 .connection__address p {
@@ -118,7 +118,7 @@
 }
 
 .connection__info-item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .connection__info {
@@ -131,9 +131,12 @@
 
 .connection__info a {
   display: block;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: $color-blue-zodiac;
+  margin-top: -5px;
   padding: 5px 0;
 
   @include vp-1199 {
@@ -148,7 +151,7 @@
 
 .connection__contact-wrapper {
   display: grid;
-  grid-template-columns: 230px 1fr;
+  grid-template-columns: 235px 1fr;
 
   @include vp-767 {
     grid-template-columns: 1fr;

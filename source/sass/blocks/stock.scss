@@ -1,5 +1,5 @@
 .stock {
-  padding: 120px 0;
+  padding: 104px 0;
 
   @include vp-767 {
     padding: 70px 0;
@@ -8,14 +8,13 @@
 }
 
 .stock h2 {
-  margin: 0;
   font-family: 'Bebas Neue';
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
   color: $color-blue-zodiac;
   text-align: center;
-  margin-bottom: 50px;
+  margin: 0 0 55px;
 }
 
 .stock__wrapper {
@@ -42,7 +41,7 @@
 .stock__description {
   color: $color-default-white;
   background-color: $color-red-ribbon;
-  padding: 45px;
+  padding: 35px 45px 45px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,10 +64,10 @@
 }
 
 .stock__description-price {
-  margin: 0;
   font-weight: 700;
   font-size: 70px;
   line-height: 100%;
+  margin: -7px 0 20px;
 
   @include vp-767 {
     margin-bottom: 27px;
@@ -89,7 +88,6 @@
   line-height: 16px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding-bottom: 5px;
   display: inline-block;
   border-bottom: 1px solid $color-default-white;
   transition: all 0.4s ease;
@@ -132,7 +130,7 @@
   justify-content: space-between;
   align-items: flex-start;
   box-sizing: border-box;
-  padding: 35px;
+  padding: 25px 30px;
   color: $color-biscay;
   border: 6px solid transparent;
   border-image: $border-gradient;
@@ -147,7 +145,7 @@
   margin: 0;
   font-weight: 700;
   font-size: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .stock__card-wrapper p {
