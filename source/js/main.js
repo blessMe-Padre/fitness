@@ -10153,5 +10153,24 @@ window.addEventListener('DOMContentLoaded', () => {
     scrollTo(feedback);
   });
 
+  // localstorage
+  const formInput = document.querySelectorAll('input');
+
+  formInput.forEach((el) => {
+    el.addEventListener('change', changeHandler);
+  });
+
+  // записывает изменение значения инпута в localStorage
+  function changeHandler(e) {
+    localStorage.setItem(e.target.name, e.target.value);
+  }
+
+  // записывает значения инпута из localStorage в инпут формы
+  function getCheckStorage() {
+    for (let i = 0; i < formInput.length; i++) {
+      formInput[i].value = localStorage.getItem(formInput[i].name);
+    }
+  }
+  getCheckStorage();
 });
 
