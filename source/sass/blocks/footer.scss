@@ -130,7 +130,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  padding: 5px;
+  padding: 10px 5px 5px;
   cursor: pointer;
   margin-left: 15px;
 
@@ -138,6 +138,8 @@
     margin-left: 20px;
   }
 }
+
+a.footer__social-item {}
 
 .footer__social-item:first-child {
   margin-left: 0;

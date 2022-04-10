@@ -2893,7 +2893,7 @@ button,
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  padding: 5px;
+  padding: 10px 5px 5px;
   cursor: pointer;
   margin-left: 15px;
 }
