@@ -10,7 +10,7 @@
   overflow-y: auto;
   opacity: 0;
   visibility: hidden;
-  padding: 10px 20px;
+  padding: 50px 20px 10px;
   text-align: center;
   transition: all 0.3s ease-in;
 }
@@ -19,18 +19,26 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
+  margin: 0;
 }
 
 .trainer-description__prof {
+  margin: 0;
   font-size: 16px;
   line-height: 150%;
   color: $color-heather;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 .trainer-description__list {
+  margin: 0;
+  padding: 0 0 0 51px;
   text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
+}
+
+.trainer-description__item {
+  margin-bottom: 13px;
 }

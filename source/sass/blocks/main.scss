@@ -2,7 +2,7 @@
   min-height: 658px;
   background: $main-bg;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 47px;
   color: $color-default-white;
 
   @include vp-1199 {
@@ -25,7 +25,7 @@
 }
 
 .main__tel {
-  font-family: 'Bebas Neue Bold', "Arial", "Tahoma", sans-serif;
+  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
   font-size: 26px;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -54,9 +54,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-top: 120px;
+  padding-top: 106px;
   padding-right: 64px;
-  padding-left: 100px;
+  padding-left: 94px;
 
   @include vp-1199 {
     padding-top: 35px;
@@ -100,7 +100,7 @@
   letter-spacing: 0.03em;
   margin: 0;
   max-width: 300px;
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 
   @include vp-1199 {
     font-size: 86px;
@@ -116,8 +116,8 @@
 
 .main__descriptions {
   position: absolute;
-  bottom: 190px;
-  left: 0;
+  bottom: 193px;
+  left: 14px;
 
   @include vp-1199 {
     bottom: 145px;
@@ -162,8 +162,8 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 36px;
+  right: -11px;
 
   @include vp-1199 {
     display: none;
@@ -178,6 +178,5 @@
   line-height: 14px;
   text-transform: uppercase;
   color: $color-default-white;
-  margin-bottom: 24px;
   padding: 10px;
 }

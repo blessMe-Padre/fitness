@@ -1,17 +1,22 @@
 .subscription {
-  padding: 120px 0;
+  position: relative;
+  padding: 113px 0;
   background-color: $color-white-lilac;
   text-align: center;
-  background-image: url('../img/bg/pancakes.png');
-  background-repeat: no-repeat;
-  background-position: bottom right;
 }
 
 .subscription h2 {
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
   color: $color-blue-zodiac;
-  margin-bottom: 50px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.subscription__bg {
+  position: absolute;
+  bottom: -78px;
+  right: -4px;
 }

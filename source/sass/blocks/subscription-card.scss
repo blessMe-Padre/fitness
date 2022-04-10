@@ -4,9 +4,10 @@
   font-family: 'Roboto Condensed';
   width: 360px;
   min-height: 448px;
-  padding: 10px 5px;
+  padding: 64px 5px 20px;
   text-align: center;
   transition: all 0.4s ease;
+  z-index: 1;
 
   @include vp-767 {
     width: 290px;
@@ -24,6 +25,7 @@
   font-size: 26px;
   line-height: 29px;
   color: $color-blue-zodiac;
+  margin: 0 0 9px;
 
   @include vp-767 {
     font-size: 22px;
@@ -33,7 +35,7 @@
 
 .subscription-card__action {
   color: $color-blue-bayoux;
-  margin-bottom: 10px;
+  margin: 0 0 68px;
 }
 
 .subscription-card__price {
@@ -41,8 +43,9 @@
   display: inline-block;
   font-weight: 700;
   font-size: 60px;
-  line-height: 150%;
+  line-height: 136%;
   color: $color-torea-bay;
+  margin: 0 0 40px;
 
   @include vp-767 {
     font-size: 48px;

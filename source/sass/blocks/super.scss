@@ -1,9 +1,10 @@
 .super {
-  padding: 120px 0;
+  padding: 126px 0 40px;
 }
 
 .super__row {
   display: flex;
+  justify-content: space-between;
 
   @include vp-767 {
     flex-wrap: wrap;
@@ -13,7 +14,7 @@
 .super__text {
   color: $color-default-white;
   background-color: $color-red-ribbon;
-  padding: 87px 80px 10px 78px;
+  padding: 78px 75px 10px 78px;
 
   @include vp-1199 {
     padding: 50px 45px;
@@ -29,7 +30,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  margin-bottom: 55px;
+  margin: 0 0 44px;
 
   @include vp-1199 {
     font-size: 12px;
@@ -38,7 +39,7 @@
 
 .super__wrapper {
   display: grid;
-  grid-template-columns: 210px 100px;
+  grid-template-columns: 210px 137px;
 
   @include vp-1199 {
     grid-template-columns: 120px 1fr;
@@ -63,6 +64,8 @@
 }
 
 .super__date {
+  padding-left: 42px;
+
   @include vp-1199 {
     margin-left: 20px;
   }

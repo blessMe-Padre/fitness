@@ -1,5 +1,5 @@
 .trainer {
-  padding: 120px 0;
+  padding: 75px 0 100px;
 }
 
 .trainer__wrapper {
@@ -15,11 +15,13 @@
 }
 
 .trainer h2 {
+  font-family: 'Bebas Neue';
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
   color: $color-blue-zodiac;
-  margin-bottom: 60px;
+  margin: 0 0 55px;
+  padding-left: 2px;
 }
 
 .trainer__list {
@@ -42,7 +44,7 @@
 }
 
 .trainer__btn-prev {
-  left: -45px;
+  left: -57px;
 
   @include vp-1199 {
     left: 0;
@@ -51,7 +53,8 @@
 
 .trainer__btn-next {
   transform: rotate(180deg);
-  right: -45px;
+  top: 45%;
+  right: -55px;
 
   @include vp-1199 {
     right: 0;

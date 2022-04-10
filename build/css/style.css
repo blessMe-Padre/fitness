@@ -1561,7 +1561,7 @@ button,
 
 .button--main {
   color: #ffffff;
-  padding: 24px 10px;
+  padding: 18px 10px;
   border: 4px solid #ffffff;
   min-width: 230px;
 }
@@ -1588,7 +1588,7 @@ button,
 
 .button--super {
   color: #ffffff;
-  padding: 28px 5px;
+  padding: 24px 5px;
   border: 4px solid #ffffff;
 }
 
@@ -1623,7 +1623,7 @@ button,
   min-height: 658px;
   background: conic-gradient(from 130.31deg at 16.03% 39.06%, #B80027 -46.69deg, #003D85 32.24deg, #B80027 313.31deg, #003D85 392.24deg);
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 47px;
   color: #ffffff;
 }
 
@@ -1640,7 +1640,7 @@ button,
 }
 
 .main__tel {
-  font-family: 'Bebas Neue Bold', "Arial", "Tahoma", sans-serif;
+  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
   font-size: 26px;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -1669,9 +1669,9 @@ button,
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  padding-top: 120px;
+  padding-top: 106px;
   padding-right: 64px;
-  padding-left: 100px;
+  padding-left: 94px;
 }
 
 .main__text p {
@@ -1694,13 +1694,13 @@ button,
   letter-spacing: 0.03em;
   margin: 0;
   max-width: 300px;
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 
 .main__descriptions {
   position: absolute;
-  bottom: 190px;
-  left: 0;
+  bottom: 193px;
+  left: 14px;
 }
 
 .main__descriptions p {
@@ -1729,8 +1729,8 @@ button,
   -ms-flex-direction: column;
   flex-direction: column;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 36px;
+  right: -11px;
 }
 
 .main__social-link {
@@ -1741,13 +1741,12 @@ button,
   line-height: 14px;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 24px;
   padding: 10px;
 }
 
 .gym {
   position: relative;
-  padding: 120px 40px;
+  padding: 120px 40px 120px 99px;
   min-height: 756px;
   width: 100%;
   max-width: 1240px;
@@ -1767,29 +1766,32 @@ button,
 }
 
 .gym__text h2 {
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
-  margin-bottom: 25px;
+  padding-top: 42px;
+  margin: 0 0 11px;
 }
 
 .gym__text h3 {
   font-size: 18px;
   line-height: 150%;
   margin-bottom: 50px;
+  margin: 0 0 40px;
 }
 
 .gym__text p {
   font-weight: 300;
   margin-bottom: 20px;
   text-align: left;
+  margin: 0 0 7px;
 }
 
 .gym__video {
   position: absolute;
-  left: 36%;
-  bottom: 10%;
+  left: 38.5%;
+  bottom: 16%;
   width: 364px;
   height: 228px;
 }
@@ -1798,7 +1800,7 @@ button,
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%;
+  padding-bottom: 62.25%;
   background-color: #102654;
 }
 
@@ -1833,21 +1835,26 @@ button,
 }
 
 .subscription {
-  padding: 120px 0;
+  position: relative;
+  padding: 113px 0;
   background-color: #f8f9fc;
   text-align: center;
-  background-image: url("../img/bg/pancakes.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
 }
 
 .subscription h2 {
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
   color: #102654;
-  margin-bottom: 50px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.subscription__bg {
+  position: absolute;
+  bottom: -78px;
+  right: -4px;
 }
 
 .subscription-body__block {
@@ -1885,9 +1892,9 @@ button,
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin-right: 46px;
+  margin-right: 43px;
   padding: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .subscription-nav__item:last-child {
@@ -1915,11 +1922,12 @@ button,
   font-family: 'Roboto Condensed';
   width: 360px;
   min-height: 448px;
-  padding: 10px 5px;
+  padding: 64px 5px 20px;
   text-align: center;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  z-index: 1;
 }
 
 .subscription-card:hover {
@@ -1935,11 +1943,12 @@ button,
   font-size: 26px;
   line-height: 29px;
   color: #102654;
+  margin: 0 0 9px;
 }
 
 .subscription-card__action {
   color: #495a7d;
-  margin-bottom: 10px;
+  margin: 0 0 68px;
 }
 
 .subscription-card__price {
@@ -1947,8 +1956,9 @@ button,
   display: inline-block;
   font-weight: 700;
   font-size: 60px;
-  line-height: 150%;
+  line-height: 136%;
   color: #103aae;
+  margin: 0 0 40px;
 }
 
 .subscription-card__shadow {
@@ -1963,19 +1973,22 @@ button,
 }
 
 .super {
-  padding: 120px 0;
+  padding: 126px 0 40px;
 }
 
 .super__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .super__text {
   color: #ffffff;
   background-color: #ed0233;
-  padding: 87px 80px 10px 78px;
+  padding: 78px 75px 10px 78px;
 }
 
 .super__text p {
@@ -1983,14 +1996,14 @@ button,
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  margin-bottom: 55px;
+  margin: 0 0 44px;
 }
 
 .super__wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 210px 100px;
-  grid-template-columns: 210px 100px;
+  -ms-grid-columns: 210px 137px;
+  grid-template-columns: 210px 137px;
 }
 
 .super__wrapper h2 {
@@ -1999,6 +2012,10 @@ button,
   line-height: 90px;
   letter-spacing: 0.03em;
   margin: 0;
+}
+
+.super__date {
+  padding-left: 42px;
 }
 
 .super__img img {
@@ -2011,11 +2028,11 @@ button,
 .item-date__title {
   font-size: 18px;
   line-height: 150%;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 }
 
 .item-date {
-  margin-bottom: 30px;
+  margin-bottom: 21px;
 }
 
 .item-date__date {
@@ -2047,6 +2064,8 @@ button,
 }
 
 .item-date__date-day {
+  font-style: normal;
+  line-height: 100%;
   font-weight: 700;
   font-size: 40px;
   -ms-grid-row: 1;
@@ -2054,7 +2073,18 @@ button,
   grid-row: 1 /3;
 }
 
+.item-date__date-month {
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
 .item-date__date-year {
+  margin-top: -5px;
+  font-size: 14px;
+  line-height: 150%;
+  padding-left: 5px;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/ 3;
@@ -2078,7 +2108,7 @@ button,
 }
 
 .trainer {
-  padding: 120px 0;
+  padding: 75px 0 100px;
 }
 
 .trainer__wrapper {
@@ -2086,11 +2116,13 @@ button,
 }
 
 .trainer h2 {
+  font-family: 'Bebas Neue';
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
   color: #102654;
-  margin-bottom: 60px;
+  margin: 0 0 55px;
+  padding-left: 2px;
 }
 
 .trainer__list {
@@ -2117,14 +2149,15 @@ button,
 }
 
 .trainer__btn-prev {
-  left: -45px;
+  left: -57px;
 }
 
 .trainer__btn-next {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-  right: -45px;
+  top: 45%;
+  right: -55px;
 }
 
 .trainer__item {
@@ -2174,7 +2207,7 @@ button,
   overflow-y: auto;
   opacity: 0;
   visibility: hidden;
-  padding: 10px 20px;
+  padding: 50px 20px 10px;
   text-align: center;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
@@ -2185,24 +2218,32 @@ button,
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
+  margin: 0;
 }
 
 .trainer-description__prof {
+  margin: 0;
   font-size: 16px;
   line-height: 150%;
   color: #b6bdcc;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 .trainer-description__list {
+  margin: 0;
+  padding: 0 0 0 51px;
   text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
 }
 
+.trainer-description__item {
+  margin-bottom: 13px;
+}
+
 .benefits {
-  padding: 120px 0;
+  padding: 134px 0;
   background-color: #f8f9fc;
 }
 
@@ -2213,14 +2254,16 @@ button,
   letter-spacing: 0.03em;
   color: #102654;
   text-align: center;
-  margin-bottom: 60px;
+  margin: 0 0 74px;
 }
 
 .benefits__wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: 1fr -webkit-min-content 1fr;
+  -ms-grid-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr -webkit-min-content 1fr;
+  grid-template-columns: 1fr min-content 1fr;
   justify-items: center;
 }
 
