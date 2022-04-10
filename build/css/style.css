@@ -1566,6 +1566,12 @@ button,
   min-width: 230px;
 }
 
+.button--main:focus,
+.button--main:hover {
+  color: #d10a42;
+  border: 4px solid #d10a42;
+}
+
 .button--subscription {
   display: inline-block;
   padding: 23px 44px;
@@ -1586,6 +1592,12 @@ button,
   border: 4px solid #ffffff;
 }
 
+.button--super:focus,
+.button--super:hover {
+  border: 4px solid #ffffff;
+  background-color: #2e35ac;
+}
+
 .button--form {
   border: none;
   color: #ffffff;
@@ -1598,6 +1610,13 @@ button,
   text-transform: uppercase;
   border: 3px solid #ffffff;
   width: 100%;
+  cursor: pointer;
+}
+
+.button--form:focus,
+.button--form:hover {
+  color: #102654;
+  background-color: #ffffff;
 }
 
 .main {
@@ -1626,6 +1645,10 @@ button,
   line-height: 26px;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.main__tel:hover {
+  color: #74819c;
 }
 
 .main__wrapper {
