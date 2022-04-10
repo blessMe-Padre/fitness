@@ -10137,5 +10137,21 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // плавный скрол до блока
+  const mainBtn = document.querySelector('.button--main');
+  const feedback = document.querySelector('.subscription');
+
+  function scrollTo(el) {
+    window.scroll({
+      left: 0,
+      top: el.offsetTop,
+      behavior: 'smooth',
+    });
+  }
+
+  mainBtn.addEventListener('click', () => {
+    scrollTo(feedback);
+  });
+
 });
 

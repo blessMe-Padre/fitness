@@ -2356,7 +2356,7 @@ button,
   margin: 0;
   font-weight: 700;
   font-size: 70px;
-  line-height: 156%;
+  line-height: 100%;
 }
 
 .stock__description-text {
@@ -3300,6 +3300,18 @@ button,
 
   .stock__description {
     display: block;
+  }
+
+  .stock__description-year {
+    line-height: 126%;
+  }
+
+  .stock__description-price {
+    margin-bottom: 27px;
+  }
+
+  .stock__img img {
+    height: 299px;
   }
 
   .stock__item {

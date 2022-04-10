@@ -58,13 +58,21 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 156%;
+
+  @include vp-767 {
+    line-height: 126%;
+  }
 }
 
 .stock__description-price {
   margin: 0;
   font-weight: 700;
   font-size: 70px;
-  line-height: 156%;
+  line-height: 100%;
+
+  @include vp-767 {
+    margin-bottom: 27px;
+  }
 }
 
 .stock__description-text {
@@ -96,6 +104,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+  @include vp-767 {
+    height: 299px;
+  }
 }
 
 .stock__item {
