@@ -1270,7 +1270,7 @@ button.swiper-pagination-bullet {
   font-weight: 300;
   font-family: "Roboto Condensed";
   font-display: swap;
-  src: url("../fonts/RobotoCondensed-Light.woff2") format("woff2"), url("../fonts/RobotoCondensed-Light.woff") format("woff");
+  src: url("../fonts/RobotoCondensedLight.woff2") format("woff2"), url("../fonts/RobotoCondensedLight.woff") format("woff");
 }
 
 @font-face {
@@ -1639,8 +1639,13 @@ button,
   justify-content: space-between;
 }
 
+.main__header img {
+  width: 82px;
+  height: 17px;
+}
+
 .main__tel {
-  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 26px;
   line-height: 26px;
   letter-spacing: 0.03em;
@@ -1675,7 +1680,7 @@ button,
 }
 
 .main__text p {
-  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 49px;
@@ -1686,7 +1691,7 @@ button,
 
 .main__text h1 {
   position: relative;
-  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-weight: 700;
   font-size: 109px;
   line-height: 109px;
@@ -1734,7 +1739,7 @@ button,
 }
 
 .main__social-link {
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1742,6 +1747,10 @@ button,
   text-transform: uppercase;
   color: #ffffff;
   padding: 10px;
+}
+
+.main__social-link:hover {
+  color: #102654;
 }
 
 .gym {
@@ -1842,7 +1851,7 @@ button,
 }
 
 .subscription h2 {
-  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
@@ -1952,6 +1961,8 @@ button,
 }
 
 .subscription-card__price {
+  font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
+  font-weight: 700;
   position: relative;
   display: inline-block;
   font-weight: 700;
@@ -1992,7 +2003,7 @@ button,
 }
 
 .super__text p {
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed", "Arial", "Tahoma", sans-serif';
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
@@ -2058,7 +2069,7 @@ button,
   content: '';
   top: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
   height: 2px;
   background-color: #ffffff;
 }
@@ -2116,7 +2127,7 @@ button,
 }
 
 .trainer h2 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
@@ -2162,6 +2173,8 @@ button,
 
 .trainer__item {
   position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   cursor: pointer;
 }
 
@@ -2642,7 +2655,7 @@ button,
 }
 
 .connection {
-  padding: 111px 60px 0;
+  padding: 111px 0 0;
 }
 
 .connection__wrapper {
@@ -2655,7 +2668,7 @@ button,
 .connection__form {
   color: #ffffff;
   background-color: #102654;
-  padding: 56px 100px 68px;
+  padding: 56px 100px 68px 133px;
 }
 
 .connection__form h2 {
@@ -2664,7 +2677,7 @@ button,
   font-size: 49px;
   line-height: 64px;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .connection__contact {
@@ -2752,7 +2765,7 @@ button,
 
 .form input {
   border: none;
-  padding: 10px 0;
+  padding: 7px 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -2927,12 +2940,35 @@ button,
     padding: 0 45px;
   }
 
+  .button--main {
+    min-width: 184px;
+  }
+
+  .button--subscription {
+    display: block;
+    width: 206px;
+    margin: 0 auto;
+    padding: 23px 10px;
+  }
+
+  .button--super {
+    font-weight: 700;
+    font-size: 10px;
+    border: 2px solid #ffffff;
+    padding: 12px 5px;
+  }
+
   .main {
     min-height: 554px;
+    padding-top: 37px;
   }
 
   .main__header {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+  }
+
+  .main__tel {
+    font-size: 24px;
   }
 
   .main__wrapper {
@@ -2942,7 +2978,7 @@ button,
   }
 
   .main__text {
-    padding-top: 35px;
+    padding-top: 45px;
     padding-right: 30px;
     padding-left: 45px;
   }
@@ -2955,16 +2991,18 @@ button,
   .main__text h1 {
     font-size: 86px;
     line-height: 86px;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
   }
 
   .main__descriptions {
     bottom: 145px;
+    left: 0;
   }
 
   .main__descriptions p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 150%;
+    letter-spacing: 0.03em;
   }
 
   .main__img img {
@@ -2976,7 +3014,7 @@ button,
   }
 
   .gym {
-    padding: 100px 45px;
+    padding: 55px 45px 117px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -2996,26 +3034,87 @@ button,
     line-height: 42px;
   }
 
+  .gym__text h3 {
+    margin-bottom: 33px;
+  }
+
+  .gym__text p {
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0 0 23px -6px;
+  }
+
   .gym__text-hidden {
     display: none;
+  }
+
+  .gym__img img {
+    width: 678px;
   }
 
   .gym__video {
     width: 266px;
     height: 167px;
-    bottom: 0;
+    bottom: 100px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
 
+  .video__button {
+    width: 73px;
+    height: 73px;
+    background-size: cover;
+  }
+
+  .subscription {
+    padding: 92px 0 104px;
+  }
+
+  .subscription h2 {
+    font-size: 42px;
+    margin-bottom: 32px;
+  }
+
+  .subscription__bg {
+    width: 310px;
+    height: 300px;
+    bottom: -54px;
+    right: 0;
+  }
+
+  .subscription-nav__item {
+    font-size: 18px;
+    margin-right: 53px;
+  }
+
+  .subscription-card {
+    padding: 67px 5px 20px;
+    width: 442px;
+  }
+
+  .subscription-card__action {
+    margin: 0 0 70px;
+  }
+
+  .subscription-card__shadow {
+    font-size: 100px;
+    top: -24px;
+  }
+
+  .super {
+    padding: 100px 0 40px;
+  }
+
   .super__text {
-    padding: 50px 45px;
+    padding: 44px 45px;
   }
 
   .super__text p {
+    padding-top: 5px;
     font-size: 12px;
+    margin: 0 0 30px;
   }
 
   .super__wrapper {
@@ -3029,10 +3128,13 @@ button,
   }
 
   .super__date {
+    padding-left: 5px;
     margin-left: 20px;
   }
 
   .item-date__title {
+    padding-top: 4px;
+    padding-bottom: 0;
     font-size: 12px;
   }
 
@@ -3053,11 +3155,28 @@ button,
   }
 
   .item-date__time {
+    padding-top: 5px;
     font-size: 24px;
   }
 
+  .trainer {
+    padding: 54px 0 100px;
+  }
+
   .trainer__wrapper {
-    padding: 0 51px;
+    padding: 0 56px;
+  }
+
+  .trainer h2 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    margin: 0 0 45px;
+  }
+
+  .trainer__list {
+    height: 294px;
   }
 
   .trainer__btn-prev {
@@ -3072,8 +3191,13 @@ button,
     width: 268px;
   }
 
+  .benefits {
+    padding: 92px 0;
+  }
+
   .benefits h2 {
     font-size: 42px;
+    margin: 0 0 52px;
   }
 
   .benefits__wrapper {
@@ -3083,6 +3207,7 @@ button,
     -ms-grid-rows: (min-content)[3];
     grid-template-rows: repeat(3, -webkit-min-content);
     grid-template-rows: repeat(3, min-content);
+    margin: 0;
   }
 
   .benefits__item--simulators {
@@ -3093,12 +3218,17 @@ button,
     -ms-grid-row-span: 1;
     grid-row: 2 / 3;
     width: 442px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 35px 20px 36px;
+    margin: 33px 0 56px;
+  }
+
+  .benefits__item-title {
+    margin-bottom: 4px;
   }
 
   .benefits__item-subtitle {
-    margin-bottom: 30px;
+    margin-bottom: 17px;
+    font-size: 22px;
   }
 
   .benefits__item-text {
@@ -3106,9 +3236,39 @@ button,
     margin: 0 auto;
   }
 
+  .item-benefits {
+    min-height: 0;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+
+  .item-benefits__number {
+    font-size: 58px;
+  }
+
+  .item-benefits__text h3 {
+    font-size: 20px;
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .item-benefits--square {
+    padding-left: 0;
+  }
+
   .item-benefits--square,
   .item-benefits--parking {
     border: none;
+  }
+
+  .item-benefits--comfort {
+    padding-left: 0;
+  }
+
+  .item-benefits--parking,
+  .item-benefits--experience {
+    padding-left: 12px;
+    padding-right: 0;
   }
 
   .stock__wrapper {

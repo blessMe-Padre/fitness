@@ -10,7 +10,7 @@
   gap: 20px;
 
   @include vp-1199 {
-    padding: 100px 45px;
+    padding: 55px 45px 117px;
     flex-direction: column;
     align-items: center;
   }
@@ -63,6 +63,10 @@
   margin-bottom: 50px;
   margin: 0 0 40px;
 
+  @include vp-1199 {
+    margin-bottom: 33px;
+  }
+
   @include vp-767 {
     padding-left: 15px;
     padding-right: 15px;
@@ -74,6 +78,13 @@
   margin-bottom: 20px;
   text-align: left;
   margin: 0 0 7px;
+
+  @include vp-1199 {
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0 0 23px -6px;
+
+  }
 
   @include vp-767 {
     padding-left: 15px;
@@ -88,6 +99,10 @@
 }
 
 .gym__img img {
+  @include vp-1199 {
+    width: 678px;
+  }
+
   @include vp-767 {
     height: 313px;
     object-fit: cover;
@@ -104,7 +119,7 @@
   @include vp-1199 {
     width: 266px;
     height: 167px;
-    bottom: 0;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
   }

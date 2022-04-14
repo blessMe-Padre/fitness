@@ -1,5 +1,5 @@
 .connection {
-  padding: 111px 60px 0;
+  padding: 111px 0 0;
 }
 
 .connection__wrapper {
@@ -14,7 +14,7 @@
 .connection__form {
   color: $color-default-white;
   background-color: $color-blue-zodiac;
-  padding: 56px 100px 68px;
+  padding: 56px 100px 68px 133px;
 
   @include vp-1199 {
     width: 100%;
@@ -33,7 +33,7 @@
   font-size: 49px;
   line-height: 64px;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 
   @include vp-1199 {
     font-size: 42px;

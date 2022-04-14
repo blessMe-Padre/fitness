@@ -3,20 +3,36 @@
   padding: 113px 0;
   background-color: $color-white-lilac;
   text-align: center;
+
+  @include vp-1199 {
+    padding: 92px 0 104px;
+  }
 }
 
 .subscription h2 {
-  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
   color: $color-blue-zodiac;
   margin: 0;
   margin-bottom: 40px;
+
+  @include vp-1199 {
+    font-size: 42px;
+    margin-bottom: 32px;
+  }
 }
 
 .subscription__bg {
   position: absolute;
   bottom: -78px;
   right: -4px;
+
+  @include vp-1199 {
+    width: 310px;
+    height: 300px;
+    bottom: -54px;
+    right: 0;
+  }
 }
