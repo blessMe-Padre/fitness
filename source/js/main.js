@@ -1,14 +1,4 @@
-/**
- * Swiper 7.4.1
- * Most modern mobile touch slider and framework with hardware accelerated transitions
- * https://swiperjs.com
- *
- * Copyright 2014-2021 Vladimir Kharlampidi
- *
- * Released under the MIT License
- *
- * Released on: December 24, 2021
- */
+/* eslint-disable */
 
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -18,16 +8,16 @@
   'use strict';
 
   /**
-   * SSR Window 4.0.2
-   * Better handling for window object in SSR environment
-   * https://github.com/nolimits4web/ssr-window
-   *
-   * Copyright 2021, Vladimir Kharlampidi
-   *
-   * Licensed under MIT
-   *
-   * Released on: December 13, 2021
-   */
+ * SSR Window 4.0.2
+ * Better handling for window object in SSR environment
+ * https://github.com/nolimits4web/ssr-window
+ *
+ * Copyright 2021, Vladimir Kharlampidi
+ *
+ * Licensed under MIT
+ *
+ * Released on: December 13, 2021
+ */
 
   /* eslint-disable no-param-reassign */
   function isObject$1(obj) {

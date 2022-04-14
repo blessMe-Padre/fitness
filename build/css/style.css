@@ -1262,7 +1262,7 @@ button.swiper-pagination-bullet {
   font-weight: 400;
   font-family: "Roboto Condensed";
   font-display: swap;
-  src: url("../fonts/robotoCondensedRegular.woff2") format("woff2"), url("../fonts/roboto-condensed.woff") format("woff");
+  src: url("../fonts/roboto-condensed.woff2") format("woff2"), url("../fonts/roboto-condensed.woff") format("woff");
 }
 
 @font-face {
@@ -1522,22 +1522,6 @@ button,
   font-weight: 400;
 }
 
-.page__body--lock {
-  overflow: hidden;
-}
-
-.page__body--lock::before {
-  content: '';
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 10;
-}
-
 .button {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1582,8 +1566,8 @@ button,
 .button--subscription:hover {
   border: none;
   color: #ffffff;
-  background: -o-linear-gradient(352.95deg, #ED0233 17.6%, #003EB7 95.31%);
-  background: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
+  background: -o-linear-gradient(352.95deg, #ed0233 17.6%, #003eb7 95.31%);
+  background: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
 }
 
 .button--super {
@@ -1599,7 +1583,6 @@ button,
 }
 
 .button--form {
-  border: none;
   color: #ffffff;
   background-color: inherit;
   padding: 16px 10px;
@@ -1621,7 +1604,7 @@ button,
 
 .main {
   min-height: 658px;
-  background: conic-gradient(from 130.31deg at 16.03% 39.06%, #B80027 -46.69deg, #003D85 32.24deg, #B80027 313.31deg, #003D85 392.24deg);
+  background: conic-gradient(from 130.31deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
   padding-top: 30px;
   padding-bottom: 47px;
   color: #ffffff;
@@ -1786,13 +1769,11 @@ button,
 .gym__text h3 {
   font-size: 18px;
   line-height: 150%;
-  margin-bottom: 50px;
   margin: 0 0 40px;
 }
 
 .gym__text p {
   font-weight: 300;
-  margin-bottom: 20px;
   text-align: left;
   margin: 0 0 7px;
 }
@@ -1962,7 +1943,6 @@ button,
 
 .subscription-card__price {
   font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
-  font-weight: 700;
   position: relative;
   display: inline-block;
   font-weight: 700;
@@ -2003,7 +1983,7 @@ button,
 }
 
 .super__text p {
-  font-family: 'Roboto Condensed", "Arial", "Tahoma", sans-serif';
+  font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
@@ -2066,7 +2046,7 @@ button,
 
 .item-date__date::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 80%;
@@ -2110,7 +2090,7 @@ button,
 
 .item-date__time::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -2187,7 +2167,7 @@ button,
 
 .trainer__item-name {
   position: absolute;
-  bottom: 20px;
+  bottom: 27px;
   left: 50%;
   font-weight: 700;
   font-size: 18px;
@@ -2329,10 +2309,10 @@ button,
   font-weight: 700;
   font-size: 71px;
   line-height: 100%;
-  background: -o-linear-gradient(322.39deg, #D10A42 0%, #0041CA 45.58%);
-  background: linear-gradient(127.61deg, #D10A42 0%, #0041CA 45.58%);
-  -webkit-background-clip: text;
+  background: -o-linear-gradient(322.39deg, #d10a42 0%, #0041ca 45.58%);
+  background: linear-gradient(127.61deg, #d10a42 0%, #0041ca 45.58%);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
 }
 
@@ -2578,8 +2558,8 @@ button,
   padding: 53px 60px;
   width: 560px;
   background: #1c3374;
-  -webkit-box-shadow: 0px 0px 40px rgba(28, 51, 116, 0.2);
-  box-shadow: 0px 0px 40px rgba(28, 51, 116, 0.2);
+  -webkit-box-shadow: 0 0 40px rgba(28, 51, 116, 0.2);
+  box-shadow: 0 0 40px rgba(28, 51, 116, 0.2);
   color: #ffffff;
   display: -ms-grid;
   display: grid;
@@ -2766,8 +2746,6 @@ button,
   border: none;
   padding: 7px 0;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
   background-color: inherit;
   font-size: 14px;
   line-height: 16px;
