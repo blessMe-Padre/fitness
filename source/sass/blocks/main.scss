@@ -12,6 +12,7 @@
 
   @include vp-767 {
     min-height: 491px;
+    padding-top: 18px;
   }
 }
 
@@ -28,6 +29,11 @@
 .main__header img {
   width: 82px;
   height: 17px;
+
+  @include vp-767 {
+    width: 68px;
+    height: 15px;
+  }
 }
 
 .main__tel {
@@ -75,6 +81,7 @@
   }
 
   @include vp-767 {
+    padding-top: 53px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -119,8 +126,8 @@
   }
 
   @include vp-767 {
-    font-size: 78px;
-    line-height: 78px;
+    font-size: 79px;
+    line-height: 79px;
   }
 }
 
@@ -132,6 +139,10 @@
   @include vp-1199 {
     bottom: 145px;
     left: 0;
+  }
+
+  @include vp-767 {
+    bottom: 118px;
   }
 }
 
@@ -151,7 +162,7 @@
   }
 
   @include vp-767 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 150%;
   }
 }

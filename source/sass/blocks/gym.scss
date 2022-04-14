@@ -17,7 +17,7 @@
 
   @include vp-767 {
     position: static;
-    padding: 70px 0 60px;
+    padding: 67px 0 72px;
     min-height: 630px;
   }
 }
@@ -33,6 +33,7 @@
 
   @include vp-767 {
     width: 100%;
+    padding-bottom: 15px;
   }
 }
 
@@ -50,10 +51,11 @@
   }
 
   @include vp-767 {
+    text-align-last: left;
     font-size: 32px;
     line-height: 32px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
+    margin: 0 0 9px;
   }
 }
 
@@ -68,8 +70,9 @@
   }
 
   @include vp-767 {
-    padding-left: 15px;
+    font-weight: 400;
     padding-right: 15px;
+    margin-bottom: 24px;
   }
 }
 
@@ -87,14 +90,23 @@
   }
 
   @include vp-767 {
+    width: 100%;
+    margin: 0;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 30px;
+    text-align: left;
   }
 }
 
 .gym__text-hidden {
   @include vp-1199 {
     display: none;
+  }
+}
+
+.gym__img {
+  @include vp-767 {
+    margin-bottom: 17px;
   }
 }
 

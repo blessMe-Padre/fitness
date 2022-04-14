@@ -16,6 +16,8 @@
 
   @include vp-767 {
     width: 290px;
+    padding: 54px 5px 20px;
+    min-height: 384px;
   }
 }
 
@@ -45,6 +47,10 @@
   @include vp-1199 {
     margin: 0 0 70px;
   }
+
+  @include vp-767 {
+    margin: 0 0 58px;
+  }
 }
 
 .subscription-card__price {
@@ -56,10 +62,17 @@
   font-size: 60px;
   line-height: 136%;
   color: $color-torea-bay;
-  margin: 0 0 40px;
+  margin: 0 0 33px;
 
   @include vp-767 {
+    margin-left: 5px;
     font-size: 48px;
+  }
+}
+
+.subscription-card__price svg {
+  @include vp-767 {
+    height: 34px;
   }
 }
 
@@ -80,5 +93,7 @@
 
   @include vp-767 {
     font-size: 78px;
+    top: -22px;
+    left: -23%;
   }
 }
