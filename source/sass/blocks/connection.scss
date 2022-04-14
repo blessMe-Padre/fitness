@@ -1,5 +1,9 @@
 .connection {
   padding: 111px 0 0;
+
+  @include vp-1199 {
+    padding: 90px 0 0;
+  }
 }
 
 .connection__wrapper {
@@ -18,7 +22,7 @@
 
   @include vp-1199 {
     width: 100%;
-    padding-left: 130px;
+    padding-left: 132px;
     padding-bottom: 70px;
   }
 
@@ -37,7 +41,7 @@
 
   @include vp-1199 {
     font-size: 42px;
-    margin-bottom: 50px;
+    margin-bottom: 24px;
   }
 
   @include vp-767 {
@@ -47,12 +51,12 @@
 }
 
 .connection__contact {
-  padding: 64px 120px 10px;
+  padding: 62px 128px 48px;
   color: $color-blue-zodiac;
   border-top: 1px solid $color-lynch;
 
   @include vp-1199 {
-    padding-bottom: 0;
+    padding: 62px 132px 57px;
   }
 
   @include vp-767 {
@@ -69,7 +73,7 @@
 
   @include vp-1199 {
     font-size: 42px;
-    margin-bottom: 50px;
+    margin-bottom: 33px;
   }
 
   @include vp-767 {
@@ -85,7 +89,7 @@
   margin: 0 0 5px;
 
   @include vp-1199 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 152.34%;
   }
 }
@@ -93,6 +97,11 @@
 .connection__address {
   border-right: 1px solid $color-lynch;
   padding-left: 5px;
+
+  @include vp-1199 {
+    padding-left: 0;
+    padding-right: 30px;
+  }
 
   @include vp-767 {
     border: none;
@@ -119,17 +128,31 @@
 
 .connection__info-item {
   margin-bottom: 10px;
+
+  @include vp-1199 {
+    margin-bottom: 20px;
+  }
 }
 
 .connection__info {
   padding-left: 60px;
+
+  @include vp-1199 {
+    padding-left: 49px;
+  }
 
   @include vp-767 {
     padding-left: 0;
   }
 }
 
-.connection__info a {
+.connection__info-link {
+  @include vp-1199 {
+    font-size: 16px;
+  }
+}
+
+.connection__info-tel {
   display: block;
   font-style: normal;
   font-weight: 400;
@@ -145,13 +168,18 @@
   }
 }
 
-.connection__info a:hover {
+.connection__info-link:hover,
+.connection__info-tel:hover {
   color: $color-governor-bay;
 }
 
 .connection__contact-wrapper {
   display: grid;
   grid-template-columns: 235px 1fr;
+
+  @include vp-1199 {
+    grid-template-columns: 268px 1fr;
+  }
 
   @include vp-767 {
     grid-template-columns: 1fr;
