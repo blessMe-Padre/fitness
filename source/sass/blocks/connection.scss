@@ -4,6 +4,10 @@
   @include vp-1199 {
     padding: 90px 0 0;
   }
+
+  @include vp-767 {
+    padding: 58px 0 0;
+  }
 }
 
 .connection__wrapper {
@@ -47,6 +51,7 @@
   @include vp-767 {
     font-size: 32px;
     line-height: 32px;
+    margin-bottom: 36px;
   }
 }
 
@@ -60,7 +65,7 @@
   }
 
   @include vp-767 {
-    padding: 70px 15px 0 15px;
+    padding: 64px 15px 61px;
   }
 }
 
@@ -105,12 +110,16 @@
 
   @include vp-767 {
     border: none;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
 .connection__address-item {
   margin-bottom: 15px;
+
+  @include vp-767 {
+    margin-bottom: 22px;
+  }
 }
 
 .connection__address p {
