@@ -1541,7 +1541,7 @@ button,
 .button {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -1709,7 +1709,7 @@ button,
 }
 
 .main__descriptions p {
-  font-family: 'Roboto Condensed', "Arial", "Tahoma", sans-serif;
+  font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1739,7 +1739,7 @@ button,
 }
 
 .main__social-link {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1775,7 +1775,7 @@ button,
 }
 
 .gym__text h2 {
-  font-family: 'Bebas Neue', "Arial", "Tahoma", sans-serif;
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
@@ -1928,7 +1928,7 @@ button,
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #ffffff;
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
   width: 360px;
   min-height: 448px;
   padding: 64px 5px 20px;
@@ -2018,7 +2018,7 @@ button,
 }
 
 .super__wrapper h2 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 90px;
   line-height: 90px;
   letter-spacing: 0.03em;
@@ -2261,7 +2261,7 @@ button,
 }
 
 .benefits h2 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
@@ -2561,7 +2561,7 @@ button,
 
 .reviews h2 {
   margin: 0;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
@@ -2671,7 +2671,7 @@ button,
 
 .connection__form h2 {
   margin: 0;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 64px;
   letter-spacing: 0.03em;
@@ -2685,7 +2685,7 @@ button,
 }
 
 .connection__contact h2 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue", "Arial", "Tahoma", sans-serif;
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 0.03em;
