@@ -35,7 +35,7 @@
   padding: 53px 60px;
   width: 560px;
   background: $color-biscay;
-  box-shadow: 0px 0px 40px rgba(28, 51, 116, 0.2);
+  box-shadow: 0 0 40px rgba(28, 51, 116, 0.2);
   color: $color-default-white;
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -110,7 +110,7 @@
   transform: translateY(-50%);
   width: 16px;
   height: 32px;
-  background-image: url('../img/svg/arrow.svg');
+  background-image: url("../img/svg/arrow.svg");
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
@@ -144,5 +144,5 @@
 }
 
 .swiper-button-disabled {
-  background-image: url('../img/svg/arrow-disabled.svg');
+  background-image: url("../img/svg/arrow-disabled.svg");
 }

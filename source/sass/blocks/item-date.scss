@@ -24,12 +24,12 @@
   display: grid;
   grid-template-columns: repeat(2, min-content);
   grid-template-rows: repeat(2, min-content);
-  align-items: center
+  align-items: center;
 }
 
 .item-date__date::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 80%;
@@ -90,7 +90,7 @@
 
 .item-date__time::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
