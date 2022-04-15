@@ -1307,7 +1307,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Placeholder", "Arial", sans-serif;
+  font-family: "Placeholder";
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1458,7 +1458,7 @@ button,
 }
 
 .rouble {
-  font-family: "Rouble", "Arial", sans-serif;
+  font-family: "Rouble";
   /* stylelint-disable */
   text-transform: lowercase !important;
   font-weight: 400 !important;
@@ -1558,6 +1558,7 @@ button,
 
 .button--subscription {
   display: inline-block;
+  vertical-align: middle;
   padding: 23px 44px;
   border: 2px solid #102654;
 }
@@ -1868,6 +1869,7 @@ button,
 
 .subscription-nav {
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
   border-bottom: 2px solid rgba(120, 120, 120, 0.2);
   margin-bottom: 39px;
@@ -1945,6 +1947,7 @@ button,
   font-family: "Roboto Condensed", "Arial", "Tahoma", sans-serif;
   position: relative;
   display: inline-block;
+  vertical-align: middle;
   font-weight: 700;
   font-size: 60px;
   line-height: 136%;
@@ -2454,6 +2457,7 @@ button,
   letter-spacing: 0.05em;
   text-transform: uppercase;
   display: inline-block;
+  vertical-align: middle;
   border-bottom: 1px solid #ffffff;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
@@ -3707,6 +3711,7 @@ button,
     font-size: 58px;
     line-height: 100%;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .item-benefits__sub-number {
