@@ -1974,9 +1974,6 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .super__text {
@@ -2651,6 +2648,16 @@ button,
   color: #ffffff;
   background-color: #102654;
   padding: 56px 100px 68px 133px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .connection__form h2 {
@@ -3286,6 +3293,7 @@ button,
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     gap: 28px;
+    justify-items: center;
   }
 
   .stock__card {
@@ -3321,6 +3329,9 @@ button,
     width: 100%;
     padding-left: 132px;
     padding-bottom: 70px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .connection__form h2 {
