@@ -22,7 +22,7 @@
 .connection__form {
   color: $color-default-white;
   background-color: $color-blue-zodiac;
-  padding: 56px 100px 68px 133px;
+  padding: 56px 170px 68px 101px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -45,6 +45,7 @@
   font-size: 49px;
   line-height: 64px;
   letter-spacing: 0.03em;
+  padding-right: 43px;
   margin-bottom: 35px;
 
   @include vp-1199 {
@@ -60,7 +61,7 @@
 }
 
 .connection__contact {
-  padding: 62px 128px 48px;
+  padding: 64px 120px 48px;
   color: $color-blue-zodiac;
   border-top: 1px solid $color-lynch;
 
@@ -69,7 +70,7 @@
   }
 
   @include vp-767 {
-    padding: 64px 15px 61px;
+    padding: 64px 15px 56px;
   }
 }
 
@@ -88,6 +89,7 @@
   @include vp-767 {
     font-size: 32px;
     line-height: 32px;
+    margin-bottom: 38px;
   }
 }
 
@@ -95,11 +97,15 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
-  margin: 0 0 5px;
+  margin: 0 0 2px;
 
   @include vp-1199 {
     font-size: 20px;
     line-height: 152.34%;
+  }
+
+  @include vp-767 {
+    margin: 0 0 5px;
   }
 }
 
@@ -119,10 +125,10 @@
 }
 
 .connection__address-item {
-  margin-bottom: 15px;
+  margin-bottom: 21px;
 
   @include vp-767 {
-    margin-bottom: 22px;
+    margin-bottom: 18px;
   }
 }
 
@@ -140,10 +146,10 @@
 }
 
 .connection__info-item {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 
   @include vp-1199 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 }
 
@@ -151,7 +157,7 @@
   padding-left: 60px;
 
   @include vp-1199 {
-    padding-left: 49px;
+    padding-left: 47px;
   }
 
   @include vp-767 {
@@ -160,6 +166,8 @@
 }
 
 .connection__info-link {
+  font-size: 13px;
+
   @include vp-1199 {
     font-size: 16px;
   }

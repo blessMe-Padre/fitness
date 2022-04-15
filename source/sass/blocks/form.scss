@@ -14,8 +14,14 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 410px;
+
+  @include vp-1199 {
+    width: 470px;
+  }
 
   @include vp-767 {
+    width: 100%;
     margin-bottom: 13px;
   }
 }

@@ -21,6 +21,10 @@
 
   @include vp-879 {
     grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  @include vp-767 {
     gap: 35px;
   }
 }

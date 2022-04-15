@@ -1559,7 +1559,7 @@ button,
 .button--subscription {
   display: inline-block;
   vertical-align: middle;
-  padding: 23px 44px;
+  padding: 22px 43px;
   border: 2px solid #102654;
 }
 
@@ -1952,7 +1952,7 @@ button,
   font-size: 60px;
   line-height: 136%;
   color: #103aae;
-  margin: 0 0 33px;
+  margin: 0 0 40px;
 }
 
 .subscription-card__shadow {
@@ -1987,7 +1987,7 @@ button,
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  margin: 0 0 44px;
+  margin: 0 0 43px;
 }
 
 .super__wrapper {
@@ -2019,7 +2019,7 @@ button,
 .item-date__title {
   font-size: 18px;
   line-height: 150%;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 .item-date {
@@ -2062,6 +2062,7 @@ button,
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 /3;
+  padding-top: 5px;
 }
 
 .item-date__date-month {
@@ -2086,6 +2087,7 @@ button,
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
+  padding-top: 5px;
 }
 
 .item-date__time::before {
@@ -2099,7 +2101,7 @@ button,
 }
 
 .trainer {
-  padding: 75px 0 100px;
+  padding: 75px 0 114px;
 }
 
 .trainer__wrapper {
@@ -2122,6 +2124,7 @@ button,
   display: -ms-flexbox;
   display: flex;
   min-width: 0;
+  height: 294px;
 }
 
 .trainer__btn-prev,
@@ -2167,7 +2170,7 @@ button,
 
 .trainer__item-name {
   position: absolute;
-  bottom: 27px;
+  bottom: 23px;
   left: 50%;
   font-weight: 700;
   font-size: 18px;
@@ -2236,7 +2239,7 @@ button,
 }
 
 .benefits {
-  padding: 134px 0;
+  padding: 120px 0 123px;
   background-color: #f8f9fc;
 }
 
@@ -2365,6 +2368,10 @@ button,
   margin-bottom: -10px;
 }
 
+.item-benefits--experience {
+  margin-bottom: -10px;
+}
+
 .item-benefits--experience .item-benefits__text {
   padding-left: 32px;
 }
@@ -2377,7 +2384,7 @@ button,
 }
 
 .stock {
-  padding: 104px 0;
+  padding: 115px 0 104px;
 }
 
 .stock h2 {
@@ -2647,7 +2654,7 @@ button,
 .connection__form {
   color: #ffffff;
   background-color: #102654;
-  padding: 56px 100px 68px 133px;
+  padding: 56px 170px 68px 101px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2666,11 +2673,12 @@ button,
   font-size: 49px;
   line-height: 64px;
   letter-spacing: 0.03em;
+  padding-right: 43px;
   margin-bottom: 35px;
 }
 
 .connection__contact {
-  padding: 62px 128px 48px;
+  padding: 64px 120px 48px;
   color: #102654;
   border-top: 1px solid #74819c;
 }
@@ -2687,7 +2695,7 @@ button,
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
-  margin: 0 0 5px;
+  margin: 0 0 2px;
 }
 
 .connection__address {
@@ -2696,7 +2704,7 @@ button,
 }
 
 .connection__address-item {
-  margin-bottom: 15px;
+  margin-bottom: 21px;
 }
 
 .connection__address p {
@@ -2708,11 +2716,15 @@ button,
 }
 
 .connection__info-item {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 .connection__info {
   padding-left: 60px;
+}
+
+.connection__info-link {
+  font-size: 13px;
 }
 
 .connection__info-tel {
@@ -2751,6 +2763,7 @@ button,
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  width: 410px;
 }
 
 .form input {
@@ -2820,6 +2833,11 @@ button,
   justify-content: space-between;
 }
 
+.footer__logo img {
+  width: 89px;
+  height: 20px;
+}
+
 .footer__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2877,7 +2895,7 @@ button,
   flex-wrap: wrap;
   min-width: 130px;
   max-width: 250px;
-  margin: 0 -40px 0 0;
+  margin: 0 -50px 0 0;
 }
 
 .footer__social-item {
@@ -2893,9 +2911,9 @@ button,
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  padding: 10px 5px 5px;
+  padding: 16px 5px 5px;
   cursor: pointer;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .footer__social-item svg {
@@ -3171,10 +3189,6 @@ button,
     height: 294px;
   }
 
-  .trainer__list {
-    height: 274px;
-  }
-
   .trainer__btn-prev {
     left: 0;
   }
@@ -3364,11 +3378,11 @@ button,
   }
 
   .connection__info-item {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .connection__info {
-    padding-left: 49px;
+    padding-left: 47px;
   }
 
   .connection__info-link {
@@ -3387,6 +3401,10 @@ button,
 
   .form {
     max-width: 472px;
+  }
+
+  .form__wrapper {
+    width: 470px;
   }
 
   .form input {
@@ -3417,13 +3435,18 @@ button,
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    margin: 0 0 0 20px;
+    margin: 0 -7px 0 20px;
     padding: 0;
   }
 
   .footer__social-item {
     margin-right: -5px;
-    margin-left: 15px;
+    margin-left: 12px;
+  }
+
+  .footer__social-item svg {
+    height: 24px;
+    width: 24px;
   }
 }
 
@@ -3431,7 +3454,7 @@ button,
   .subscription-body__list {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    gap: 35px;
+    gap: 40px;
   }
 }
 
@@ -3573,6 +3596,10 @@ button,
     display: none;
   }
 
+  .subscription-body__list {
+    gap: 35px;
+  }
+
   .subscription-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3610,6 +3637,7 @@ button,
   .subscription-card__price {
     margin-left: 5px;
     font-size: 48px;
+    margin: 0 0 33px;
   }
 
   .subscription-card__price svg {
@@ -3669,6 +3697,10 @@ button,
   .trainer h2 {
     font-size: 32px;
     line-height: 32px;
+  }
+
+  .trainer__list {
+    height: 274px;
   }
 
   .trainer__item {
@@ -3896,12 +3928,17 @@ button,
   }
 
   .connection__contact {
-    padding: 64px 15px 61px;
+    padding: 64px 15px 56px;
   }
 
   .connection__contact h2 {
     font-size: 32px;
     line-height: 32px;
+    margin-bottom: 38px;
+  }
+
+  .connection__contact h3 {
+    margin: 0 0 5px;
   }
 
   .connection__address {
@@ -3910,7 +3947,7 @@ button,
   }
 
   .connection__address-item {
-    margin-bottom: 22px;
+    margin-bottom: 18px;
   }
 
   .connection__info {
@@ -3927,6 +3964,7 @@ button,
   }
 
   .form__wrapper {
+    width: 100%;
     margin-bottom: 13px;
   }
 
@@ -3999,5 +4037,10 @@ button,
     margin-left: 0;
     margin-right: 14px;
     padding: 15px 10px;
+  }
+
+  .footer__social-item svg {
+    height: 27px;
+    width: 27px;
   }
 }
