@@ -2181,6 +2181,7 @@ button,
   transform: translateX(-50%);
 }
 
+.trainer__item:focus .trainer-description,
 .trainer__item:hover .trainer-description {
   opacity: 1;
   visibility: visible;
