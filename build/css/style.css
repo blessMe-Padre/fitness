@@ -1575,6 +1575,7 @@ button,
   color: #ffffff;
   padding: 24px 5px;
   border: 4px solid #ffffff;
+  margin-bottom: 30px;
 }
 
 .button--super:focus,
@@ -1782,7 +1783,7 @@ button,
 .gym__video {
   position: absolute;
   left: 38.5%;
-  bottom: 16%;
+  top: 407px;
   width: 364px;
   height: 228px;
 }
@@ -1987,6 +1988,7 @@ button,
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
+  max-width: 347px;
   margin: 0 0 43px;
 }
 
@@ -3117,7 +3119,7 @@ button,
   }
 
   .super__text {
-    padding: 44px 45px;
+    padding: 44px 45px 0;
   }
 
   .super__text p {

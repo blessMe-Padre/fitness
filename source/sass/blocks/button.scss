@@ -64,6 +64,7 @@
   color: $color-default-white;
   padding: 24px 5px;
   border: 4px solid $color-default-white;
+  margin-bottom: 30px;
 
   @include vp-1199 {
     font-weight: 700;
