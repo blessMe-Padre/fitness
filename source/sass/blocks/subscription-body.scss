@@ -14,7 +14,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }

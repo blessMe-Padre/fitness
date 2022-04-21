@@ -2679,7 +2679,7 @@ button,
 }
 
 .connection__contact {
-  padding: 64px 120px 48px;
+  padding: 64px 60px 48px;
   color: #102654;
   border-top: 1px solid #74819c;
 }
@@ -2938,14 +2938,6 @@ button,
   }
 }
 
-@media (max-width: 1279px) {
-  .subscription-body__list {
-    -ms-grid-columns: (1fr)[2];
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-}
-
 @media (max-width: 1199px) {
   .container {
     padding: 0 45px;
@@ -3093,6 +3085,12 @@ button,
     height: 300px;
     bottom: -54px;
     right: 0;
+  }
+
+  .subscription-body__list {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
 
   .subscription-nav__item {
