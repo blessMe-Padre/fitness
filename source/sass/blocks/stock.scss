@@ -50,6 +50,8 @@
   grid-template-columns: 280px 1fr;
 
   @include vp-1199 {
+    grid-template-columns: 280px 399px;
+    justify-content: center;
     margin-bottom: 32px;
   }
 
@@ -125,17 +127,21 @@
   border-bottom: 1px solid $color-governor-bay;
 }
 
-.stock__img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.stock__img {
+  height: 462px;
+  background-image: url("../img/content/stock/1.jpg");
+  background-repeat: no-repeat;
+
 
   @include vp-1199 {
-    height: 462px;
-    object-fit: cover;
+    width: 399px;
+    background-image: url("../img/content/stock/2.jpg");
   }
 
   @include vp-767 {
+    background-image: url("../img/content/stock/3.jpg");
+    margin: 0 auto;
+    width: 290px;
     height: 299px;
   }
 }

@@ -65,8 +65,13 @@
 }
 
 .footer__nav {
+  margin-left: -20px;
   display: flex;
   max-width: 600px;
+
+  @include vp-1199 {
+    margin-left: 0;
+  }
 }
 
 .footer__nav-list {
