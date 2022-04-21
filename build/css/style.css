@@ -2513,6 +2513,7 @@ button,
   -o-border-image: -o-linear-gradient(#d10a42, #00359f);
   border-image: -webkit-gradient(linear, left top, left bottom, from(#d10a42), to(#00359f));
   border-image: linear-gradient(#d10a42, #00359f);
+  -webkit-border-image: -webkit-linear-gradient(#d10a42, #00359f);
   border-image-slice: 1;
 }
 
@@ -2681,7 +2682,7 @@ button,
 }
 
 .connection__contact {
-  padding: 64px 60px 48px;
+  padding: 64px 119px 48px;
   color: #102654;
   border-top: 1px solid #74819c;
 }
@@ -2837,7 +2838,7 @@ button,
 }
 
 .footer__logo {
-  margin-right: 20px;
+  margin-right: 47px;
 }
 
 .footer__logo--mobile {
@@ -2943,6 +2944,20 @@ button,
   }
 }
 
+@media (max-width: 1279px) {
+  .trainer__btn-prev {
+    left: -30px;
+  }
+
+  .trainer__btn-next {
+    right: -30px;
+  }
+
+  .connection__contact {
+    padding: 62px 60px 57px;
+  }
+}
+
 @media (max-width: 1199px) {
   .container {
     padding: 0 45px;
@@ -3022,7 +3037,7 @@ button,
   }
 
   .gym {
-    padding: 55px 45px 117px;
+    padding: 55px 45px 184px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -3058,12 +3073,15 @@ button,
 
   .gym__img img {
     width: 678px;
+    height: 345px;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .gym__video {
     width: 266px;
     height: 167px;
-    bottom: 100px;
+    top: 588px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -3305,6 +3323,12 @@ button,
     margin-bottom: 32px;
   }
 
+  .stock__img img {
+    height: 462px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
   .stock__item {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -3320,6 +3344,7 @@ button,
     -o-border-image: -o-linear-gradient(#d10a42, #00359f);
     border-image: -webkit-gradient(linear, left top, left bottom, from(#d10a42), to(#00359f));
     border-image: linear-gradient(#d10a42, #00359f);
+    -webkit-border-image: -webkit-linear-gradient(#d10a42, #00359f);
     border-image-slice: 1;
     padding: 28px 35px 29px 30px;
     min-height: 211px;
@@ -3563,8 +3588,6 @@ button,
 
   .gym__img img {
     height: 313px;
-    -o-object-fit: cover;
-    object-fit: cover;
   }
 
   .gym__video {
@@ -3664,7 +3687,7 @@ button,
 
   .super__text {
     width: 100%;
-    padding: 44px 45px 49px;
+    padding: 44px 45px 18px;
   }
 
   .super__text p {
@@ -4003,13 +4026,18 @@ button,
   }
 
   .footer__nav-list {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 120px;
   }
 
   .footer__nav-item {
+    margin-right: 78px;
     margin-bottom: 15px;
   }
 

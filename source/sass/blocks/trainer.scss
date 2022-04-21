@@ -76,6 +76,10 @@
 .trainer__btn-prev {
   left: -57px;
 
+  @include vp-1279 {
+    left: -30px;
+  }
+
   @include vp-1199 {
     left: 0;
   }
@@ -85,6 +89,10 @@
   transform: rotate(180deg);
   top: 45%;
   right: -55px;
+
+  @include vp-1279 {
+    right: -30px;
+  }
 
   @include vp-1199 {
     right: 0;

@@ -61,9 +61,13 @@
 }
 
 .connection__contact {
-  padding: 64px 60px 48px;
+  padding: 64px 119px 48px;
   color: $color-blue-zodiac;
   border-top: 1px solid $color-lynch;
+
+  @include vp-1279 {
+    padding: 62px 60px 57px;
+  }
 
   @include vp-1199 {
     padding: 62px 132px 57px;

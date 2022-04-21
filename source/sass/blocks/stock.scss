@@ -130,6 +130,11 @@
   height: 100%;
   object-fit: cover;
 
+  @include vp-1199 {
+    height: 462px;
+    object-fit: cover;
+  }
+
   @include vp-767 {
     height: 299px;
   }
@@ -163,12 +168,16 @@
   color: $color-biscay;
   border: 6px solid transparent;
   border-image: $border-gradient;
+  -moz-border-image: -moz-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
+  -webkit-border-image: -webkit-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
   border-image-slice: 1;
 
   @include vp-1199 {
     width: 324px;
     border: 6px solid transparent;
     border-image: $border-gradient;
+    -moz-border-image: -moz-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
+    -webkit-border-image: -webkit-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
     border-image-slice: 1;
     padding: 28px 35px 29px 30px;
     min-height: 211px;
