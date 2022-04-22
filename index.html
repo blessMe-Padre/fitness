@@ -35,7 +35,6 @@
             <div class="main__img">
               <picture>
                 <source srcset="img/content/main.webp 1x, img/content/main@2x.webp 2x" type="image/webp">
-                <source srcset="img/content/main.jpg 1x, img/content/main@2x.jpg 2x" type="image/jpg">
 
                 <!-- 1х: 500px; 2x: 1000px -->
                 <img src="img/content/main.jpg" width="500" height="556" srcset="img/content/main@2x.jpg 2x"
@@ -62,19 +61,14 @@
             в&nbsp;фитнес центре есть несколько оборудованных залов для различных видов групповых занятий.</p>
         </div>
         <div class="gym__img">
-          <picture>
-            <source srcset="img/content/gym.webp 1x, img/content/gym@2x.webp 2x" type="image/webp">
-
-            <img src="img/content/gym.jpg" width="660" height="401" srcset="img/content/gym@2x.jpg 2x"
-              alt="тренажерный зал">
-          </picture>
         </div>
         <div class="gym__video">
           <div class="video video--enabled">
             <a class="video__link" href="https://www.youtube.com/watch?v=9TZXsZItgdw">
               <picture>
                 <source srcset="img/video/video-bg.webp 1x, img/video/video-bg@2x.webp 2x" type="image/webp">
-                <source srcset="img/video/video-bg.jpg 1x, img/video/video-bg@2x.jpg 2x" type="image/jpg">
+
+                <!-- 1х: 364px; 2x: 728px -->
                 <img class="video__media" src="img/video/video-bg.jpg" width="364" height="228"
                   srcset="img/video/video-bg@2x.jpg 2x" alt="тренажерный зал">
               </picture>
@@ -215,6 +209,8 @@
           </div>
         </div>
         <picture>
+          <source srcset="img/bg/pancakes.webp 1x, img/bg/pancakes@2x.webp 2x" type="image/webp">
+
           <!-- 1х: 245px; 2x: 490px -->
           <img class="subscription__bg" src="img/bg/pancakes.png" width="260" height="294"
             srcset="img/bg/pancakes@2x.png 2x" alt="наш тренер">
@@ -261,7 +257,7 @@
           <div class="trainer__wrapper">
             <div class="trainer__slider swiper">
               <div class="trainer__list swiper-wrapper">
-                <div class="trainer__item swiper-slide">
+                <div class="trainer__item swiper-slide" tabindex="0">
                   <picture>
                     <source srcset="img/content/trainers/1.webp 1x, img/content/trainers/1@2x.webp 2x"
                       type="image/webp">
@@ -270,6 +266,44 @@
                       srcset="img/content/trainers/1@2x.jpg 2x" alt="наш тренер">
                   </picture>
                   <div class="trainer__item-name">Анна Павлова</div>
+                  <div class="trainer__description trainer-description">
+                    <p class="trainer-description__name">Анна Павлова</p>
+                    <p class="trainer-description__prof">CrossFit</p>
+                    <ul class="trainer-description__list">
+                      <li class="trainer-description__item">Certified Level 3 Trainer</li>
+                      <li class="trainer-description__item">Победитель чемпионата России по CrossFit </li>
+                      <li class="trainer-description__item">Опыт — 6 лет</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="trainer__item swiper-slide" tabindex="0">
+                  <picture>
+                    <source srcset="img/content/trainers/2.webp 1x, img/content/trainers/2@2x.webp 2x"
+                      type="image/webp">
+                    <!-- 1х: 260px; 2x: 520px -->
+                    <img src="img/content/trainers/2.jpg" width="260" height="294"
+                      srcset="img/content/trainers/2@2x.jpg 2x" alt="наш тренер">
+                  </picture>
+                  <div class="trainer__item-name">Алексей Лавров</div>
+                  <div class="trainer__description trainer-description">
+                    <p class="trainer-description__name">Алексей Лавров</p>
+                    <p class="trainer-description__prof">CrossFit</p>
+                    <ul class="trainer-description__list">
+                      <li class="trainer-description__item">Certified Level 3 Trainer</li>
+                      <li class="trainer-description__item">Победитель чемпионата России по CrossFit </li>
+                      <li class="trainer-description__item">Опыт — 6 лет</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="trainer__item swiper-slide" tabindex="0">
+                  <picture>
+                    <source srcset="img/content/trainers/3.webp 1x, img/content/trainers/3@2x.webp 2x"
+                      type="image/webp">
+                    <!-- 1х: 260px; 2x: 520px -->
+                    <img src="img/content/trainers/3.jpg" width="260" height="294"
+                      srcset="img/content/trainers/3@2x.jpg 2x" alt="наш тренер">
+                  </picture>
+                  <div class="trainer__item-name">Алексан Пашков</div>
                   <div class="trainer__description trainer-description">
                     <p class="trainer-description__name">Александр Пашков</p>
                     <p class="trainer-description__prof">CrossFit</p>
@@ -280,55 +314,17 @@
                     </ul>
                   </div>
                 </div>
-                <div class="trainer__item swiper-slide">
+                <div class="trainer__item swiper-slide" tabindex="0">
                   <picture>
-                    <source srcset="img/content/trainers/1.webp 1x, img/content/trainers/1@2x.webp 2x"
+                    <source srcset="img/content/trainers/4.webp 1x, img/content/trainers/4@2x.webp 2x"
                       type="image/webp">
                     <!-- 1х: 260px; 2x: 520px -->
-                    <img src="img/content/trainers/1.jpg" width="260" height="294"
-                      srcset="img/content/trainers/1@2x.jpg 2x" alt="наш тренер">
+                    <img src="img/content/trainers/4.jpg" width="260" height="294"
+                      srcset="img/content/trainers/4@2x.jpg 2x" alt="наш тренер">
                   </picture>
-                  <div class="trainer__item-name">Анна Павлова</div>
+                  <div class="trainer__item-name">Мария Кетова</div>
                   <div class="trainer__description trainer-description">
-                    <p class="trainer-description__name">Александр Пашков</p>
-                    <p class="trainer-description__prof">CrossFit</p>
-                    <ul class="trainer-description__list">
-                      <li class="trainer-description__item">Certified Level 3 Trainer</li>
-                      <li class="trainer-description__item">Победитель чемпионата России по CrossFit </li>
-                      <li class="trainer-description__item">Опыт — 6 лет</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="trainer__item swiper-slide">
-                  <picture>
-                    <source srcset="img/content/trainers/1.webp 1x, img/content/trainers/1@2x.webp 2x"
-                      type="image/webp">
-                    <!-- 1х: 260px; 2x: 520px -->
-                    <img src="img/content/trainers/1.jpg" width="260" height="294"
-                      srcset="img/content/trainers/1@2x.jpg 2x" alt="наш тренер">
-                  </picture>
-                  <div class="trainer__item-name">Анна Павлова</div>
-                  <div class="trainer__description trainer-description">
-                    <p class="trainer-description__name">Александр Пашков</p>
-                    <p class="trainer-description__prof">CrossFit</p>
-                    <ul class="trainer-description__list">
-                      <li class="trainer-description__item">Certified Level 3 Trainer</li>
-                      <li class="trainer-description__item">Победитель чемпионата России по CrossFit </li>
-                      <li class="trainer-description__item">Опыт — 6 лет</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="trainer__item swiper-slide">
-                  <picture>
-                    <source srcset="img/content/trainers/1.webp 1x, img/content/trainers/1@2x.webp 2x"
-                      type="image/webp">
-                    <!-- 1х: 260px; 2x: 520px -->
-                    <img src="img/content/trainers/1.jpg" width="260" height="294"
-                      srcset="img/content/trainers/1@2x.jpg 2x" alt="наш тренер">
-                  </picture>
-                  <div class="trainer__item-name">Анна Павлова</div>
-                  <div class="trainer__description trainer-description">
-                    <p class="trainer-description__name">Александр Пашков</p>
+                    <p class="trainer-description__name">Мария Кетова</p>
                     <p class="trainer-description__prof">CrossFit</p>
                     <ul class="trainer-description__list">
                       <li class="trainer-description__item">Certified Level 3 Trainer</li>
@@ -411,19 +407,13 @@
                 <a class="stock__description-link" href="#">подробнее</a>
               </div>
               <div class="stock__img">
-                <picture>
-                  <source srcset="img/content/stock.webp 1x, img/content/stock@2x.webp 2x" type="image/webp">
-                  <!-- 1х: 280px; 2x: 560px -->
-                  <img src="img/content/stock.jpg" width="280" height="462" srcset="img/content/stock@2x.jpg 2x"
-                    alt="наш тренер">
-                </picture>
               </div>
             </div>
             <div class="stock__item">
               <div class="stock__card">
                 <div class="stock__card-wrapper">
                   <h3>Месяц бесплатно</h3>
-                  <p>Приведи друга, получи абонемент в&nbsp;подарок</p>
+                  <p>Приведи друга, получи абонемент&nbsp;в&nbsp;подарок</p>
                 </div>
                 <a class="stock__card-link" href="#">подробнее</a>
               </div>
@@ -507,8 +497,8 @@
                 <input type="text" id="user-name" name="name" placeholder="Имя" required pattern="^[a-zA-Zа-яА-Я\s]+$">
 
                 <label class="visually-hidden" for="user-phone">Телефон</label>
-                <input type="tel" id="user-phone" name="phone" placeholder="Телефон" title="89991234567" required
-                  pattern="[0-9]{11}">
+                <input type="tel" id="user-phone" name="phone" placeholder="Телефон" title="+79991234567" required
+                  pattern="^\+?[\s\-\(\)0-9]{7,19}$">
               </div>
 
               <button class="button button--form" type="submit">отправить</button>
@@ -528,10 +518,10 @@
               <div class="connection__info">
                 <div class="connection__info-item">
                   <h3>Телефон:</h3>
-                  <a href="tel:88005555555">8-800-555-55-55</a>
+                  <a class="connection__info-link" href="tel:88005555555">8-800-555-55-55</a>
                 </div>
                 <h3>Email:</h3>
-                <a href="mailto:omsk@supergym.ru">omsk@supergym.ru</a>
+                <a class="connection__info-tel" href=" mailto:omsk@supergym.ru">omsk@supergym.ru</a>
               </div>
             </div>
           </div>
@@ -541,21 +531,24 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-          <div class="footer__logo">
+          <div class="footer__logo footer__logo--desktop">
             <a>
               <img src="img/supergym-logo.png" height="20" width="89" alt="логотип Supergym">
             </a>
           </div>
           <nav class="footer__nav">
-            <ul class="footer__nav-list footer__nav-list--left">
+            <ul class="footer__nav-list">
+              <li class="footer__logo footer__logo--mobile">
+                <a>
+                  <img src="img/supergym-logo.png" height="20" width="89" alt="логотип Supergym">
+                </a>
+              </li>
               <li class="footer__nav-item">
                 <a class="footer__nav-link" href="#">Услуги</a>
               </li>
               <li class="footer__nav-item">
                 <a class="footer__nav-link" href="#">Абонементы</a>
               </li>
-            </ul>
-            <ul class="footer__nav-list footer__nav-list--right">
               <li class="footer__nav-item">
                 <a class="footer__nav-link" href="#">Акции</a>
               </li>
@@ -567,6 +560,7 @@
               </li>
             </ul>
           </nav>
+
           <div class="footer__social">
             <ul class="footer__social-list">
               <li class="footer__social-item">
