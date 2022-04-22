@@ -100,6 +100,16 @@
 .super__img {
   @include vp-767 {
     width: 100%;
-    min-height: 290px;
+    min-height: 292px;
+  }
+
+  @include vp-321 {
+    background-image: url("../img/content/super-3.jpg");
+  }
+}
+
+.super__img img {
+  @include vp-321 {
+    display: none;
   }
 }

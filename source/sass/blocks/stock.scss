@@ -152,8 +152,9 @@
   gap: 40px;
 
   @include vp-1199 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: min-content min-content;
     grid-template-rows: auto;
+    margin: 0 auto;
     gap: 28px;
     justify-items: center;
   }
@@ -172,7 +173,7 @@
   box-sizing: border-box;
   padding: 25px 30px;
   color: $color-biscay;
-  border: 6px solid transparent;
+  border: 6px solid;
   border-image: $border-gradient;
   -moz-border-image: -moz-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
   -webkit-border-image: -webkit-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
@@ -180,7 +181,7 @@
 
   @include vp-1199 {
     width: 324px;
-    border: 6px solid transparent;
+    border: 6px solid;
     border-image: $border-gradient;
     -moz-border-image: -moz-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
     -webkit-border-image: -webkit-linear-gradient(rgba(209, 10, 66, 1), rgba(0, 53, 159, 1));
